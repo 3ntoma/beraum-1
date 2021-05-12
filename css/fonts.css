@@ -1,0 +1,67 @@
+/* DISPLAY */
+@font-face {
+	font-family: 'SFD';
+	src: url('../css/fonts/SFUIDisplay-Thin.eot');
+	src: local('SF UI Display Thin'), local('SFUIDisplay-Thin'),
+		url('../css/fonts/SFUIDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../css/fonts/SFUIDisplay-Thin.woff') format('woff'),
+		url('../css/fonts/SFUIDisplay-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+	font-display: block;
+}
+@font-face {
+	font-family: 'SFD';
+	src: url('../css/fonts/SFUIDisplay-Light.eot');
+	src: local('SF UI Display Light'), local('SFUIDisplay-Light'),
+		url('../css/fonts/SFUIDisplay-Light.eot?#iefix') format('embedded-opentype'),
+		url('../css/fonts/SFUIDisplay-Light.woff') format('woff'),
+		url('../css/fonts/SFUIDisplay-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: block;
+}
+@font-face {
+	font-family: 'SFD';
+	src: url('../css/fonts/SFUIDisplay-Regular.eot');
+	src: local('SF UI Display Regular'), local('SFUIDisplay-Regular'),
+		url('../css/fonts/SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../css/fonts/SFUIDisplay-Regular.woff') format('woff'),
+		url('../css/fonts/SFUIDisplay-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+@font-face {
+	font-family: 'SFD';
+	src: url('../css/fonts/SFUIDisplay-Medium.eot');
+	src: local('SF UI Display Medium'), local('SFUIDisplay-Medium'),
+		url('../css/fonts/SFUIDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../css/fonts/SFUIDisplay-Medium.woff') format('woff'),
+		url('../css/fonts/SFUIDisplay-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: block;
+}
+@font-face {
+	font-family: 'SFD';
+	src: url('../css/fonts/SFUIDisplay-Semibold.eot');
+	src: local('SF UI Display Semibold'), local('SFUIDisplay-Semibold'),
+		url('../css/fonts/SFUIDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('../css/fonts/SFUIDisplay-Semibold.woff') format('woff'),
+		url('../css/fonts/SFUIDisplay-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: block;
+}
+@font-face {
+	font-family: 'SFD';
+	src: url('../css/fonts/SFUIDisplay-Heavy.eot');
+	src: local('SF UI Display Heavy'), local('SFUIDisplay-Heavy'),
+		url('../css/fonts/SFUIDisplay-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('../css/fonts/SFUIDisplay-Heavy.woff') format('woff'),
+		url('../css/fonts/SFUIDisplay-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: block;
+}
