@@ -1,11 +1,11 @@
 /*------------- PAGE CONFIG ------------------*/
 
 @font-face {
-    font-family: SF_font;
-    src: url("../css/fonts/SFUIDisplay-Thin.woff");
+    font-family: SFD;
+    src: url("../css/fonts/SFUIDisplay-Regular.woff");
 }
 body{
-    font-family: SF_font !important;
+    font-family: SFD !important;
 }
 ul{
     list-style: none;
@@ -15,31 +15,36 @@ ul{
 
 /*------------- HEADER -----------------------*/
 
-.header{
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.95);
+.header-shadow, .header-line{
+    height: 48px;
+    background: rgba(255,255,255,0.9);
     position: fixed;
     width: 100%;
     z-index: 9999;
 }
+.header-shadow {
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
+.header-line {
+    border-bottom: 0.7px solid rgba(0,0,0,0.16);
+}
 .header__container{
-    height: 50px;
+    height: 48px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 /*--- LOGO ---*/
 .company__container{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     color: white;
     display: flex;
 }
 .logo{
-    background: url("../img/icons/gerb_spb.png");
-    background-size: contain;   
-    width: 20px;
-    margin-right: 1rem;
+    background: url("../img/icons/beraum-logo.svg") center no-repeat; 
+    width: 100px;
+    height: 18px;
 }
 /*--- NAV ---*/
 .menu__body{
@@ -49,8 +54,11 @@ ul{
     display: flex;
     margin: 0 !important;
     padding: 0 !important;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
+}
+.menu__link {
+    color: #333;
 }
 .menu__list > li{
     padding-left: 2rem;
@@ -72,6 +80,7 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(40px, auto);
+    display: none;
 }
 .category{
     margin: 1px;

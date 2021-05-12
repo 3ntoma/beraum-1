@@ -149,3 +149,16 @@ if(iconMenu){
 		menuBody.classList.toggle('_active');
 	});
 }
+
+$(window).on('scroll', function() {
+    var $nav = $('header'),
+        scroll = $(this).scrollTop();
+
+    if (scroll > 10) {
+		$nav.addClass('header-line');
+		$nav.removeClass('header-shadow'); 
+    } else {
+		$nav.removeClass('header-line');
+		$nav.addClass('header-shadow');
+    }
+});
