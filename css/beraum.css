@@ -1,4 +1,5 @@
 /*------------- PAGE CONFIG ------------------*/
+
 @font-face {
     font-family: SF_font;
     src: url("../css/fonts/SFUIDisplay-Thin.woff");
@@ -13,6 +14,7 @@ ul{
 }
 
 /*------------- HEADER -----------------------*/
+
 .header{
     height: 50px;
     background-color: rgba(0, 0, 0, 0.95);
