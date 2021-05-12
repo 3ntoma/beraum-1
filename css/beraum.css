@@ -4,7 +4,7 @@
     src: url("../css/fonts/SFUIDisplay-Thin.woff");
 }
 body{
-    font-family: SF_font;
+    font-family: SF_font !important;
 }
 ul{
     list-style: none;
