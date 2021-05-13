@@ -22,6 +22,10 @@ ul{
     margin: 0 !important;
     padding: 0 !important;
 }
+._container{
+    max-width: 1140px;
+    margin: auto auto;
+}
 
 /*---------------------- HEADER -----------------------*/
 
@@ -170,11 +174,7 @@ main{
     margin-bottom: 10rem;
 }
 .info_block{
-    max-width: 1140px;
-    margin: auto auto;
-    font-size: 18px;
-    line-height: 1.5;
-    font-weight: 400;
+
 }
 .info_block h3{
     font-size: 36px;
@@ -188,10 +188,27 @@ main{
 .info_row{
 
 }
-
+/*--------------------- ПРЕЙМУЩЕСТВА -------------*/
 .company__advantage{
-    background-color: white;
+    background-color: whitesmoke;
     width: 100%;
+    margin-bottom: 10rem;
+}
+.advantage_block{
+    padding: 5rem 0;
+}
+.block_name h3{
+    font-size: 36px;
+    text-align: center;
+}
+.advantage_grid{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-row-gap: 30px;
+    grid-auto-rows: minmax(40px, auto);
+    grid-template-areas: "adv-pic-1 adv-pic-2 adv-pic-3" "adv-name-1 adv-name-2 adv-name-3" "adv-text-1 adv-text-2 adv-text-3";
 }
 
 /*--------------------- FOOTER ----------------*/
