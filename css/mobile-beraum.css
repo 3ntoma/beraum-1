@@ -19,9 +19,6 @@ body._touch .show{
     .company__container{
         z-index: 9999;
     }
-    div.phone-icon{
-        display: none;
-    }
     .menu__icon{
         z-index: 5;
         display: block;
@@ -108,5 +105,11 @@ body._touch .show{
         transition: all 0.25s ease 0s;
         font-size: 1.6rem;
         font-weight: bold;
+    }
+}
+/*------------------ FOOTER --------------------------*/
+@media (max-width: 767px){
+    .footer__container{
+        display: none;
     }
 }
