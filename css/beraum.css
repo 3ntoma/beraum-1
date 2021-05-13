@@ -219,7 +219,7 @@ footer{
 }
 .footer__container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .footer__container > div{
