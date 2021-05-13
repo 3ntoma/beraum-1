@@ -87,14 +87,11 @@ ul{
     text-decoration: none;
     opacity: 0.8;
 }
-.menu-link-phone {
+.phone-logo {
     background-image: url("../img/icons/Phone-icon-header.svg");
-    background-repeat: no-repeat;
+    background-repeat: center no-repeat;
     width: 15px;
     height: 15px;
-    display: inline-block;
-    padding: auto;
-    margin-left: 250px;
 }
 .menu__list > li{
     padding-left: 2rem;
