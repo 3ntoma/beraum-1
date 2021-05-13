@@ -111,10 +111,11 @@ main{
     border-radius: 5px;
     text-align: center;
 }
-/*--- SLIDER ---*/
+/*-------- SLIDER --------*/
 .top__slider{
     background-color: white;
-    margin-bottom: 1rem;
+    margin-top: 0.25rem;
+    margin-bottom: 10rem;
     width: 100%;
 }
 .slider__container{
@@ -159,14 +160,38 @@ main{
 .sliderban_1 .slick-dots{
     bottom: 20px;
 }
-/*-------------------- COMPANY ----------------*/
-.company__advantage{
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 300px;
+.sliderban_1{
+    margin-bottom: 0 !important;
 }
+/*-------------------- COMPANY ----------------*/
 .company__info{
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 300px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+.info_block{
+    max-width: 1140px;
+    margin: auto auto;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.info_block h3{
+    font-size: 36px;
+}
+.info_text{
+    width: 45%;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.info_row{
+
+}
+
+.company__advantage{
+    background-color: white;
+    width: 100%;
 }
 
 /*--------------------- FOOTER ----------------*/
