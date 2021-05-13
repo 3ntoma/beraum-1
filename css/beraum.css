@@ -92,8 +92,8 @@ ul{
 }
 .phone-icon {
     background-image: url("../img/icons/Phone-icon-header.svg");
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     cursor: pointer;
 }
 .phone-icon:hover {
