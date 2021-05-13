@@ -40,9 +40,13 @@ ul{
     border-bottom: 0.7px solid rgba(0,0,0,0.16);
 }
 .header__container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: calc(max(22px, env(safe-area-inset-left)));
+    padding-right: calc(max(22px, env(safe-area-inset-right)));
     height: 48px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 /*--- LOGO ---*/
@@ -67,9 +71,17 @@ ul{
     padding: 0 !important;
     font-size: 14px;
     color: #1d1d1d;
+    letter-spacing: 0.04em;
+    line-height: 3.14286;
+    text-decoration: none;
 }
 .menu__link {
     color: #1d1d1d;
+}
+.menu__link:hover {
+    color: #1d1d1d;
+    text-decoration: none;
+    opacity: 0.8;
 }
 .menu__list > li{
     padding-left: 2rem;
