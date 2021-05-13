@@ -22,7 +22,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$('.sliderban_1').slick({
-	  dots: false,
+	  dots: true,
 	  arrows: true,
 	  infinite: true,
 	  autoplay : true,
@@ -32,7 +32,7 @@ $(document).ready(function(){
 	  edgeFriction: 0,
 	  centerMode: true,
 	  variableWidth: true,
-	  draggable: true
+	  draggable: false
 	});
    
   });

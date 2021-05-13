@@ -113,18 +113,17 @@ main{
 }
 /*--- SLIDER ---*/
 .top__slider{
-    background-color: ghostwhite;
+    background-color: white;
+    margin-bottom: 3rem;
     width: 100%;
-    height: 500px;
 }
 .slider__container{
-    width: 100%;
+    max-width: 1840px;
     height: 500px;
-    padding: 0 5rem;
     margin: 0 auto;
 }
 .slider{
-    width: 12%;
+    width: 1840px;
     height: 500px;
 }
 ._one{
@@ -135,6 +134,20 @@ main{
 }
 ._three{
     background: url("../img/slider/sliderbar_5.png");
+}
+/*--- SLIDER ELEMENTS ---*/
+.sliderban_1 .slick-arrow{
+    width: 48px;
+    height: 48px;
+    top: calc(50% - 24px);
+}
+.sliderban_1 .slick-prev{
+    left: 30px;
+    z-index: 2;
+}
+.sliderban_1 .slick-next{
+    right: 30px;
+    z-index: 2;
 }
 /*-------------------- COMPANY ----------------*/
 .company__advantage{
