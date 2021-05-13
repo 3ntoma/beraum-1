@@ -9,6 +9,11 @@
     src: url("../css/fonts/SFUIDisplay-Regular.woff");
     font-weight: 500;
 }
+@font-face {
+    font-family: SFD;
+    src: url("../css/fonts/SFUIDisplay-Light.woff");
+    font-weight: 300;
+}
 body{
     font-family: SFD !important;
 }
