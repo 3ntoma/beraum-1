@@ -156,6 +156,9 @@ main{
 .slick-list{
     margin: 0 !important;
 }
+.sliderban_1 .slick-dots{
+    bottom: 20px;
+}
 /*-------------------- COMPANY ----------------*/
 .company__advantage{
     background-color: rgba(0, 0, 0, 0.5);
