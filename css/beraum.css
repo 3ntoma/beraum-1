@@ -22,9 +22,6 @@ ul{
     margin: 0 !important;
     padding: 0 !important;
 }
-html{
-    overflow-x: hidden;
-}
 
 /*---------------------- HEADER -----------------------*/
 
@@ -105,28 +102,27 @@ main{
 /*--- SLIDER ---*/
 .top__slider{
     background-color: ghostwhite;
+    width: 100%;
     height: 500px;
 }
 .slider__container{
+    width: 100%;
     height: 500px;
+    padding: 0 5rem;
+    margin: 0 auto;
 }
 .slider{
+    width: 12%;
     height: 500px;
 }
 ._one{
     background: url("../img/slider/sliderbar_1.png");
-    background-size: contain;
-    width: 10%;
 }
 ._two{
     background: url("../img/slider/sliderbar_2.png");
-    background-size: contain;
-    width: 10%;
 }
 ._three{
     background: url("../img/slider/sliderbar_5.png");
-    background-size: contain;
-    width: 10%;
 }
 /*-------------------- COMPANY ----------------*/
 .company__advantage{
