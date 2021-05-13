@@ -125,15 +125,19 @@ main{
 .slider{
     width: 1840px;
     height: 500px;
+    min-height: 1px;
 }
 ._one{
-    background: url("../img/slider/sliderbar_1.png");
+    background: url("../img/slider/slider_art_1.jpg");
+    background-size: contain;
 }
 ._two{
     background: url("../img/slider/sliderbar_2.png");
+    background-size: contain;
 }
 ._three{
     background: url("../img/slider/sliderbar_5.png");
+    background-size: contain;
 }
 /*--- SLIDER ELEMENTS ---*/
 .sliderban_1 .slick-arrow{
@@ -148,6 +152,9 @@ main{
 .sliderban_1 .slick-next{
     right: 30px;
     z-index: 2;
+}
+.slick-list{
+    margin: 0 !important;
 }
 /*-------------------- COMPANY ----------------*/
 .company__advantage{
