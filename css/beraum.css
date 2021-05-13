@@ -89,7 +89,6 @@ ul{
 }
 .phone-icon {
     background-image: url("../img/icons/Phone-icon-header.svg");
-    background-repeat: center no-repeat;
     width: 15px;
     height: 15px;
     cursor: pointer;
@@ -144,7 +143,7 @@ main{
     min-height: 1px;
 }
 ._one{
-    background: url("../img/slider/slider_art_1.jpg");
+    background: url("../img/slider/sliderbar_1.png");
     background-size: contain;
 }
 ._two{
