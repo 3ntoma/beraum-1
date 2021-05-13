@@ -66,6 +66,9 @@ ul{
     height: 18px;
 }
 /*--- NAV ---*/
+.menu__icon{
+    display: none;
+}
 .menu__body{
     margin-left: 2rem;
 }
