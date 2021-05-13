@@ -28,10 +28,6 @@ body._touch .show{
         cursor: pointer; 
     }
     .menu__icon span{
-        background-color: rgba(255, 255, 255, 0);
-    }
-    .menu__icon::before,
-    .menu__icon::after{
         left: 0;
         position: absolute;
         height: 10%;
@@ -39,29 +35,24 @@ body._touch .show{
         transition: all 0.3s ease 0s;
         background-color: black;
     }
-    .menu__icon::before,
-    .menu__icon::after{
-        content: "";
+    .line_1{
+        margin-top: 0.5rem;
+    }
+    .line_2{
+        margin-top: 1em;
     }
     .menu__icon::before{
-        top: 2px;
+        top: 0px;
     }
     .menu__icon::after{
-        bottom: 2px;
+        bottom: 0px;
     }
-    .menu__icon span{
-        top: 50%;
-        transform: scale(1) translate(0px, -50%);
-    }
-    .menu__icon._active span{
-        transform: scale(0) translate(0px, -50%);
-    }
-    .menu__icon._active::before{
-        top: 50%;
+    .menu__icon._active .line_1{
+        top: 45%;
         transform: rotate(-45deg) translate(0px, -50%);
     }
-    .menu__icon._active::after{
-        bottom: 50%;
+    .menu__icon._active .line_2{
+        bottom: 55%;
         transform: rotate(45deg) translate(0px, 50%);
     }
     .menu__body{
