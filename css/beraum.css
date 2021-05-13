@@ -97,6 +97,11 @@ ul{
     text-decoration: none;
     opacity: 0.8;
 }
+.phone-icon a{
+    display: block;
+    width: 15px;
+    height: 15px;
+}
 .menu__list > li{
     padding-left: 2rem;
 }
