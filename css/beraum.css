@@ -87,11 +87,15 @@ ul{
     text-decoration: none;
     opacity: 0.8;
 }
-.phone-logo {
+.phone-icon {
     background-image: url("../img/icons/Phone-icon-header.svg");
-    background-repeat: center no-repeat;
     width: 15px;
     height: 15px;
+    cursor: pointer;
+}
+.phone-icon:hover {
+    text-decoration: none;
+    opacity: 0.8;
 }
 .menu__list > li{
     padding-left: 2rem;
@@ -139,7 +143,7 @@ main{
     min-height: 1px;
 }
 ._one{
-    background: url("../img/slider/slider_art_1.jpg");
+    background: url("../img/slider/sliderbar_1.png");
     background-size: contain;
 }
 ._two{
