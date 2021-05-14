@@ -267,8 +267,7 @@ main{
 .advantage_block{
     padding: 5rem 0;
 }
-.block_name h3{
-    font-size: 36px;
+.block_name h1{
     text-align: center;
 }
 .advantage_grid{
@@ -288,22 +287,32 @@ main{
 /*--------------------- FOOTER ----------------*/
 footer{
     width: 100%;
-    height: 200px;
     background-color: #fbfbfd;
     border-top: 1px solid rgba(198,202,215,.3);
 }
 .footer__container{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .footer__container > div{
-    margin: 10px 25px;
+    margin: 30px 25px 10px 25px;
+    font-size: 18px;
 }
-.social_media > div{
+.media_flex{
+    display: flex;
+}
+.media_flex div{
     width: 30px;
     height: 30px;
     margin: 5px;
+}
+._footcontain > ul li a{
+    color: black;
+}
+._footcontain > ul li a:hover{
+    color: #3462f2;
+    text-decoration: none;
 }
 div.vk{
     background: url("../img/icons/vk_icon_2.png");

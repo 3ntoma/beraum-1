@@ -107,6 +107,6 @@ body._touch .show{
 /*------------------ FOOTER --------------------------*/
 @media (max-width: 767px){
     .footer__container{
-        display: none;
+        display: block;
     }
 }
