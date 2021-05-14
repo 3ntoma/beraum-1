@@ -161,15 +161,14 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 .sl {
+    position: absolute;
     color: #1d1d1d;
-    max-width: 1140px;
-    margin-left: calc(max(22px, env(safe-area-inset-left)));
-    margin-right: calc(max(22px, env(safe-area-inset-right)));
-    margin: 0 auto;
     max-width: 1185px;
-    padding-top: 70px;
+    top: 20%;
+    left: 10%;
 }
 .sl-h1 h1 {
     font-weight: 500 !important;
@@ -203,6 +202,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 ._three{
     background: #00B8FC;
@@ -210,6 +210,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 /*--- SLIDER ELEMENTS ---*/
