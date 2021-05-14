@@ -33,11 +33,12 @@ ul{
 }
 
 /*---------------------- HEADER -----------------------*/
-
+header{
+    transition: 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+}
 .header-shadow, .header-line{
     height: 48px;
     background: rgba(255,255,255,0.9);
-    transition: 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
     position: fixed;
     width: 100%;
     z-index: 9999;
