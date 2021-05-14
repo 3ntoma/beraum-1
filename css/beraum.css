@@ -281,11 +281,10 @@ main{
     text-align: center;
     align-items: center;
 }
-.advantage_grid > div{
+.adv_block > div{
     font-size: 18px;
-
+    padding: 20px 0;
 }
-
 /*--------------------- FOOTER ----------------*/
 footer{
     width: 100%;
