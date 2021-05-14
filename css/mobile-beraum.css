@@ -94,6 +94,12 @@ body._touch .show{
         font-weight: bold;
     }
 }
+/*-------------------- COMPANY INFO ------------------------*/
+@media (max-width: 767px){
+    .info_block._container{
+        margin: 0 3rem;
+    }
+}
 /*------------------ ADVANTAGE -----------------------*/
 @media (max-width: 767px){
     .advantage_grid{
