@@ -32,8 +32,8 @@
     background: transparent;
 
     background: url(../img/slider/left.svg) no-repeat;
-    width: 25px !important;
-    height: 44px !important;
+    width: 27px !important;
+    height: 60px !important;
 }
 .slick-next
 {
@@ -58,8 +58,8 @@
     background: transparent;
 
     background: url(../img/slider/right.svg) no-repeat;
-    width: 25px !important;
-    height: 44px !important;
+    width: 27px !important;
+    height: 60px !important;
 }
 
 
