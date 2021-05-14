@@ -31,8 +31,9 @@ $(document).ready(function(){
 	  slidesToScroll: 1,
 	  edgeFriction: 0,
 	  centerMode: true,
-	  variableWidth: true,
-	  draggable: false
+	  variableWidth: false,
+	  draggable: false,
+	  adaptiveHeight: true
 	});
    
   });

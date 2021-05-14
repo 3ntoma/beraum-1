@@ -147,7 +147,7 @@ main{
     width: 100%;
 }
 .slider__container{
-    max-width: 1840px;
+    max-width: 100%;
     height: 500px;
     margin: 0 auto;
 }
@@ -159,7 +159,8 @@ main{
 ._one{
     background: #fff;
     background-image: url("../img/slider/sliderbar_1.png");
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .sl1 {
     color: #1d1d1d;
@@ -196,7 +197,8 @@ main{
 ._two{
     background: #00EAD0;
     background-image: url("../img/slider/sliderbar_2.png");
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .sl2 {
     color: #1d1d1d;
@@ -233,7 +235,8 @@ main{
 ._three{
     background: #00B8FC;
     background-image: url("../img/slider/sliderbar_4.png");
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .sl3 {
     color: #1d1d1d;
@@ -283,6 +286,7 @@ main{
 }
 .slick-list{
     margin: 0 !important;
+    padding: 0 !important;
 }
 .sliderban_1 .slick-dots{
     bottom: 20px;
