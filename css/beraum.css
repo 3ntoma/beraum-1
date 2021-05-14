@@ -147,12 +147,11 @@ main{
     width: 100%;
 }
 .slider__container{
-    max-width: 100%;
+    max-width: 1840px;
     height: 500px;
     margin: 0 auto;
 }
 .slider{
-    width: 1840px;
     height: 500px;
     min-height: 1px;
 }
