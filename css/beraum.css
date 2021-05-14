@@ -161,6 +161,7 @@ main{
     background-image: url("../img/slider/sliderbar_1.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .sl1 {
     color: #1d1d1d;
@@ -199,6 +200,7 @@ main{
     background-image: url("../img/slider/sliderbar_2.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .sl2 {
     color: #1d1d1d;
@@ -237,6 +239,7 @@ main{
     background-image: url("../img/slider/sliderbar_4.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .sl3 {
     color: #1d1d1d;
