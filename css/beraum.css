@@ -250,7 +250,7 @@ main{
     font-size: 36px;
 }
 .info_text{
-    width: 45%;
+    max-width: 767px;
     font-size: 18px;
     line-height: 1.5;
     font-weight: 400;
@@ -275,10 +275,15 @@ main{
     margin-top: 5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(1, auto);
     grid-row-gap: 30px;
     grid-auto-rows: minmax(40px, auto);
-    grid-template-areas: "adv-pic-1 adv-pic-2 adv-pic-3" "adv-name-1 adv-name-2 adv-name-3" "adv-text-1 adv-text-2 adv-text-3";
+    text-align: center;
+    align-items: center;
+}
+.advantage_grid > div{
+    font-size: 18px;
+
 }
 
 /*--------------------- FOOTER ----------------*/

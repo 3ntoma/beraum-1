@@ -94,6 +94,16 @@ body._touch .show{
         font-weight: bold;
     }
 }
+/*------------------ ADVANTAGE -----------------------*/
+@media (max-width: 767px){
+    .advantage_grid{
+        grid-auto-flow: column;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-row-gap: 30px;
+        grid-auto-rows: minmax(40px, auto);
+    }
+}
 /*------------------ FOOTER --------------------------*/
 @media (max-width: 767px){
     .footer__container{
