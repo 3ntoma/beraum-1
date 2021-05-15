@@ -149,7 +149,6 @@ main{
 .top__slider{
     background-color: white;
     margin-top: 0.25rem;
-    margin-bottom: 110px;
     width: 100%;
 }
 .slider__container{
@@ -245,6 +244,7 @@ main{
 }
 /*-------------------- COMPANY ----------------*/
 .company__info{
+    padding-top: 110px;
     background-color: #f5f5f7;
     width: 100%;
     margin: auto;
