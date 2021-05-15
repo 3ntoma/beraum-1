@@ -293,6 +293,15 @@ main{
     height: 450px;
     width: 55%;
 }
+.info_row_img_1{
+    background-image: url("../img/icons/HandOK.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 450px;
+    width: 55%;
+}
 .info_row_text{
     width: 45%;
 }
