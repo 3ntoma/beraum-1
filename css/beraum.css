@@ -300,12 +300,21 @@ main{
     width: 55%;
 }
 .info_row_img_1{
-    background-image: url("../img/icons/HandOK.png");
+    background-image: url("../img/images/Earth1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 450px;
+    height: 400px;
+    width: 55%;
+}
+.info_row_img_2{
+    background-image: url("../img/images/Earth1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 400px;
     width: 55%;
 }
 .info_row_text{
