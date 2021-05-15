@@ -271,7 +271,7 @@ main{
     display: inline-flex;
 }
 .info_row_img{
-    background: url(../img/icons/HandOK.png) no-repeat;
+    background: url("../img/icons/HandOK.png") no-repeat;
     background-size: contain;
     height: 400px;
     width: 60%;
