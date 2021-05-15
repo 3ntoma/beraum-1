@@ -9,28 +9,26 @@
     src: url("../css/fonts/SFUIDisplay-Regular.woff");
 }
 /* Arrows */
+.sliderban_1 .slick-prev, .sliderban_1 .slick-next {
+    outline: none;
+}
 .slick-prev
 {
     font-size: 0;
     line-height: 0;
-
     position: absolute;
     top: 50%;
-
     display: block;
     margin-top: 0.5rem;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-
     cursor: pointer;
-
     color: transparent;
     border: none;
     outline: none;
     background: transparent;
-
     background: url(../img/slider/left.svg) no-repeat;
     width: 27px !important;
     height: 60px !important;
@@ -39,24 +37,19 @@
 {
     font-size: 0;
     line-height: 0;
-
     position: absolute;
     top: 50%;
-
     display: block;
     margin-top: 0.5rem;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-
     cursor: pointer;
-
     color: transparent;
     border: none;
     outline: none;
     background: transparent;
-
     background: url(../img/slider/right.svg) no-repeat;
     width: 27px !important;
     height: 60px !important;
