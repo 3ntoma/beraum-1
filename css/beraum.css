@@ -333,19 +333,27 @@ main{
     height: 400px;
     width: 55%;
 }
-.advant_text{
-    padding: 40px 40px 0 40px;
+.advant_text_left{
+    padding: 40px 0 0 40px;
     width: 45%;
 }
-.advant_text span{
+.advant_text_right{
+    padding: 40px 40px 0 0;
+    width: 45%;
+}
+.advant_text_left span{
     font-size: 36px;
     font-weight: 600;
     line-height: 0.8;
     color: #3462F2;
     margin-bottom: 30px;
 }
-.advant_text_next{
-
+.advant_text_right span{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 0.8;
+    color: #3462F2;
+    margin-bottom: 30px;
 }
 
 /*--------------------- ПРЕЙМУЩЕСТВА -------------*/
