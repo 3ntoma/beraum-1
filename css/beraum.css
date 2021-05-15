@@ -351,7 +351,19 @@ div.vk{
     background: url("../img/icons/vk_icon_2.png");
     background-size: contain;
 }
-div.telegram{
-    background: url("../img/icons/telega_icon_2.png");
+div.instagram{
+    background: url("../img/icons/Instagram.svg");
+    background-size: contain;
+}
+div.ozon{
+    background: url("../img/icons/ozon.png");
+    background-size: contain;
+}
+div.wildberries{
+    background: url("../img/icons/wildberries.png");
+    background-size: contain;
+}
+div.yamarket{
+    background: url("../img/icons/yamarket.svg");
     background-size: contain;
 }
