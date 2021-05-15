@@ -301,11 +301,11 @@ footer{
     flex-wrap: nowrap;
 }
 .footer__container > div{
-    margin: 30px 25px 15px 25px;
+    margin: 30px 0 15px 0;
     font-size: 14px;
 }
 .social > div{
-    margin: 15px 25px 0px 25px;
+    margin: 15px 0 0px 0;
     font-size: 14px;
     padding-bottom: 30px;
 }
