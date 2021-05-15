@@ -84,9 +84,9 @@
 
     display: inline-block;
 
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
     padding: 0;
 
     cursor: pointer;
@@ -96,8 +96,8 @@
     font-size: 0;
     line-height: 0;
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 
     cursor: pointer;
 
@@ -135,7 +135,7 @@
     display: block;
     width: 18px !important;
     height: 18px !important;
-    border: 2px solid #1d1d1d;
+    border: 3px solid #1d1d1d;
     background: rgba(255,255,255,0.9);
     border-radius: 100%;
     margin: 0 auto;
