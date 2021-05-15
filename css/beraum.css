@@ -266,12 +266,23 @@ main{
     line-height: 1.5;
     font-weight: 400;
 }
-.info_row_img{
-    background: url(../img/icons/HankOK.png) no-repeat;
-    background-size: contain;
-    height: 400px;
-    width: auto;
+.info_row_main{
+    width: 100%;
+    display: inline-flex;
 }
+.info_row_img{
+    background-image: url("../img/icons/HankOK.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 400px;
+    width: 60%;
+}
+.info_row_text{
+    width: 40%;
+}
+
 /*--------------------- ПРЕЙМУЩЕСТВА -------------*/
 .company__advantage{
     background-color: #fbfbfd;
