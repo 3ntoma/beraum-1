@@ -273,10 +273,10 @@ main{
 .info_row_img{
     background-image: url("../img/icons/HandOK.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     position: relative;
-    height: 600px;
+    height: 450px;
     width: 60%;
 }
 .info_row_text{
