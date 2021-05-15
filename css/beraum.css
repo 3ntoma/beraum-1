@@ -310,16 +310,24 @@ footer{
     flex-wrap: nowrap;
 }
 .footer__container > div{
-    margin: 30px 25px 60px 25px;
-    font-size: 18px;
+    margin: 30px 0 15px 0;
+    font-size: 14px;
+}
+.social > div{
+    margin: 15px 0 0px 0;
+    font-size: 14px;
+    padding-bottom: 30px;
 }
 .media_flex{
     display: flex;
 }
-.media_flex div{
+.media_flex > div{
     width: 30px;
     height: 30px;
-    margin: 5px;
+    margin-left: 10px;
+}
+.media_flex > div:first-child{
+    margin-left: 0;
 }
 ._footcontain{
     line-height: 40px;
