@@ -84,8 +84,8 @@
 
     display: inline-block;
 
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin: 0 5px;
     padding: 0;
 
@@ -96,8 +96,8 @@
     font-size: 0;
     line-height: 0;
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 
     cursor: pointer;
 
@@ -121,8 +121,8 @@
     box-sizing: border-box;
     content: " ";
     display: block;
-    width: 20px !important; 
-    height: 20px !important;
+    width: 18px !important; 
+    height: 18px !important;
     background: rgba(255,255,255,0.9);
     border-color: #1d1d1d;
     border-radius: 100%;
@@ -133,9 +133,9 @@
     box-sizing: border-box;
     content: " ";
     display: block;
-    width: 20px !important;
-    height: 20px !important;
-    border: 1px solid #1d1d1d;
+    width: 18px !important;
+    height: 18px !important;
+    border: 2px solid #1d1d1d;
     background: rgba(255,255,255,0.9);
     border-radius: 100%;
     margin: 0 auto;
