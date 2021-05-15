@@ -31,6 +31,10 @@ ul{
     max-width: 1140px;
     margin: auto auto;
 }
+h1 {
+    font-size: 40px !important;
+    font-weight: 600 !important;
+}
 
 /*---------------------- HEADER -----------------------*/
 header{
@@ -144,7 +148,7 @@ main{
 .top__slider{
     background-color: white;
     margin-top: 0.25rem;
-    margin-bottom: 10rem;
+    margin-bottom: 110px;
     width: 100%;
 }
 .slider__container{
@@ -172,8 +176,8 @@ main{
     left: 10%;
 }
 .sl-h1 h1 {
-    font-weight: 500 !important;
     font-size: 65px !important;
+    font-weight: 500 !important;
 }
 .sl-text {
     padding: 10px 0 30px 0;
