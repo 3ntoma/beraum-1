@@ -267,8 +267,6 @@ main{
     font-weight: 400;
 }
 .info_row_img{
-    background: url(../img/icons/HandOK.png) no-repeat;
-    background-size: contain;
     height: 400px;
     width: auto;
 }
