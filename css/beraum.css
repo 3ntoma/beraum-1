@@ -271,16 +271,8 @@ main{
     display: inline-flex;
 }
 .info_row_img{
-<<<<<<< HEAD
-    background-image: url("../img/icons/HankOK.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-=======
     background: url(../img/icons/HandOK.png) no-repeat;
     background-size: contain;
->>>>>>> 5704551b8b5872cb3e1d90c7347a8b83c1c5cd5b
     height: 400px;
     width: 60%;
 }
