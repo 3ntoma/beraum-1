@@ -295,7 +295,7 @@ main{
 }
 .info_row_main{
     width: 100%;
-    display: inline-flex;
+    display: flex;
 }
 .info_row_img{
     background-image: url("../img/icons/HandOK.png");
