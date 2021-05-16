@@ -185,6 +185,7 @@ main{
 }
 .sl-btn {
     display: flex;
+    font-weight: 500 !important;
     justify-content: center;
     align-items: center;
     background: #3462F2;
@@ -197,6 +198,24 @@ main{
     color: #fff;
     width: 240px;
     height: 55px;
+    animation: btn-shiny-outline-blue 1s linear .5s infinite;
+}
+
+@-webkit-keyframes btn-shiny-outline-blue {
+    0% {
+      box-shadow: 0 0 0 0 rgba(52, 98, 242, 0.4);
+    }
+    to {
+      box-shadow: 0 0 0 12px rgba(52, 98, 242, 0);
+    }
+}
+@keyframes btn-shiny-outline-blue {
+    0% {
+      box-shadow: 0 0 0 0 rgba(52, 98, 242, 0.4);
+    }
+    to {
+      box-shadow: 0 0 0 12px rgba(52, 98, 242, 0);
+    }
 }
 .sl-btn:hover {
     background: #1c51ee;
@@ -249,18 +268,6 @@ main{
     width: 100%;
     margin: auto;
 }
-.company__info_left{
-    padding-top: 110px !important;
-    background-color: white;
-    width: 100%;
-    margin: auto;
-}
-.company__info_right{
-    padding-top: 110px !important;
-    background-color: #f5f5f7;
-    width: 100%;
-    margin: auto;
-}
 .info_block{
 
 }
@@ -306,17 +313,57 @@ main{
     height: 450px;
     width: 55%;
 }
-.advant_img_1{
-    background-image: url("../img/images/Earth1.jpg");
+
+/*--------------------- ПРЕЙМУЩЕСТВА -------------*/
+.company__info_left{
+    padding-top: 30px !important;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+}
+.company__info_right{
+    padding-top: 30px !important;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+}
+.info_row_main{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.advant_row {
+    margin-bottom: 60px;
+}
+.advant_row span {
+    font-weight: 600;
+}
+.advant_text_next {
+    padding-top: 10px;
+}
+.advant_text_next span {
+    color: #1d1d1d !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+.advant_text_left, .advant_text_right {
+    align-self: center;
+}
+.advant_img_1 {
+    background: url("../img/images/rub.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
     height: 400px;
     width: 55%;
+    transition: all 1s;
 }
+/*.advant_img_1:hover {
+    transform: scale(1.2);
+}*/
 .advant_img_2{
-    background-image: url("../img/images/Earth1.jpg");
+    background-image: url("../img/images/hand.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -325,7 +372,7 @@ main{
     width: 55%;
 }
 .advant_img_3{
-    background-image: url("../img/images/Earth1.jpg");
+    background-image: url("../img/images/package.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -356,7 +403,6 @@ main{
     margin-bottom: 30px;
 }
 
-/*--------------------- ПРЕЙМУЩЕСТВА -------------*/
 .company__advantage{
     background-color: white;
     width: 100%;
