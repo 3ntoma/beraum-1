@@ -16,7 +16,8 @@ $(document).ready(function(){
 	edgeFriction: 0,
 	centerMode: true,
 	variableWidth: true,
-	draggable: true
+	draggable: true,
+	pauseOnHover: false
   });
 });
 
@@ -34,7 +35,8 @@ $(document).ready(function(){
 	  centerMode: true,
 	  variableWidth: false,
 	  draggable: false,
-	  adaptiveHeight: true
+	  adaptiveHeight: true,
+	  pauseOnHover: false
 	});
    
   });
