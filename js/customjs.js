@@ -17,7 +17,8 @@ $(document).ready(function(){
 	centerMode: true,
 	variableWidth: true,
 	draggable: true,
-	pauseOnHover: false
+	pauseOnHover: false,
+	pauseOnFocus: false
   });
 });
 
@@ -36,7 +37,8 @@ $(document).ready(function(){
 	  variableWidth: false,
 	  draggable: false,
 	  adaptiveHeight: true,
-	  pauseOnHover: false
+	  pauseOnHover: false,
+	  pauseOnFocus: false
 	});
    
   });
