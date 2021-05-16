@@ -348,7 +348,7 @@ main{
     font-size: 36px;
     font-weight: 600;
     line-height: 0.8;
-    color: #105FFF;
+    color: #fff;
     margin-bottom: 30px;
 }
 .info_row_text1 {
@@ -401,7 +401,7 @@ main{
     padding-top: 10px;
 }
 .advant_text_next span {
-    color: #2f3132 !important;
+    color: #105FFF !important;
     font-size: 18px !important;
     font-weight: 700 !important;
 }
@@ -451,14 +451,14 @@ main{
     font-size: 36px;
     font-weight: 600;
     line-height: 0.8;
-    color: #105FFF;
+    color: #2f3132;
     margin-bottom: 30px;
 }
 .advant_text_right span{
     font-size: 36px;
     font-weight: 600;
     line-height: 0.8;
-    color: #105FFF;
+    color: #2f3132;
     margin-bottom: 30px;
 }
 
