@@ -490,15 +490,21 @@ footer{
     padding-bottom: 30px;
 }
 .media_flex{
+    display: block;
+}
+.media_flex ul li{
     display: flex;
 }
-.media_flex > div{
+.media_flex ul li.media_row > div{
     width: 30px;
     height: 30px;
     margin-left: 10px;
 }
-.media_flex > div:first-child{
+.media_flex ul li.media_row div:first-child{
     margin-left: 0;
+}
+.media_flex ul:last-child{
+    
 }
 ._footcontain{
     line-height: 35px;
@@ -576,8 +582,9 @@ div.vk{
 /*----------------------------- MAIN -----------------------------*/
 /*--- Category grid ---*/
 .top__category{
+    width: 100%;
+    background: rgba(29, 29, 31, 0.9);
     padding-top: 2rem;
-    max-width: 1185px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
