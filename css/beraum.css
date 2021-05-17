@@ -621,7 +621,7 @@ div.vk{
     background-image: url("../img/icons/gazpanel_1.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: bottom;
     position: sticky;
     margin: 0 auto 7px;
     width: 44px;
@@ -631,7 +631,7 @@ div.vk{
     background-image: url("../img/icons/elpanel_1.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: bottom;
     position: sticky;
     margin: 0 auto 7px;
     width: 44px;
@@ -641,7 +641,7 @@ div.vk{
     background-image: url("../img/icons/vityazhka.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: bottom;
     position: sticky;
     margin: 0 auto 7px;
     width: 44px;
@@ -651,7 +651,7 @@ div.vk{
     background-image: url("../img/icons/kapuch.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: bottom;
     position: sticky;
     margin: 0 auto 7px; 
     width: 44px;
@@ -661,7 +661,7 @@ div.vk{
     background-image: url("../img/icons/house.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: bottom;
     position: sticky;
     margin: 0 auto 7px; 
     width: 44px;
