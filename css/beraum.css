@@ -580,7 +580,7 @@ div.vk{
 /*--- Category grid ---*/
 .top_category{
     width: 100%;
-    background: rgba(29, 29, 31, 0.9);
+    background-color: rgba(29, 29, 31, 0.7);
     padding: 10px 0;
 }
 .category_container{
@@ -601,7 +601,7 @@ div.vk{
     
 }
 .category_pic_1{
-    background: #F5F5F5;
+    background: rgba(29, 29, 31, 0.7);
     background-image: url("../img/icons/gazpanel.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -611,7 +611,7 @@ div.vk{
     height: 54px;
 }
 .category_pic_2{
-    background: #F5F5F5;
+    background: rgba(29, 29, 31, 0.7);
     background-image: url("../img/icons/elpanel.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -621,7 +621,7 @@ div.vk{
     height: 54px;
 }
 .category_pic_3{
-    background: #F5F5F5;
+    background: rgba(29, 29, 31, 0.7);
     background-image: url("../img/icons/gazpanel.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -631,7 +631,7 @@ div.vk{
     height: 54px;
 }
 .category_pic_4{
-    background: #F5F5F5;
+    background: rgba(29, 29, 31, 0.7);
     background-image: url("../img/icons/elpanel.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -696,6 +696,12 @@ div.inner{
     opacity: 0;
     z-index: 1;
 }
+
+.product-image::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
 .product_meta{
     background: #fff;
     position: relative;
@@ -716,6 +722,10 @@ div.inner{
 .product_info a{
     color: #000;
 }
+.bg{
+    background: chartreuse;
+    height: 300px;
+}
 .cat_img_1{
     background: #F5F5F5;
     background-image: url("../img/slider/test_grid.png");
@@ -725,4 +735,5 @@ div.inner{
     position: relative;
     width: 100%;
     height: 300px;
+    padding: 5px;
 }
