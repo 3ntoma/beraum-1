@@ -25,47 +25,9 @@ $(document).ready(function(){
    
   });
 
-var zoom=1;//Шаг
-function zoompl(){
-	zoom=zoom+0.1;
-	//alert('pl '+zoom);
-	document.body.style.MozTransform = "scale("+zoom+")";// для FireFox
-	document.body.style.transformOrigin="0 0";// для FireFox
-	document.body.style.OTransform = "scale("+zoom+")";// для Opera
-	document.body.style.OTransformOrigin="0 0";// для Opera
-	document.body.style.zoom = zoom;
-	if (document.getElementsByTagName ('body')[0].className=='content-overflow') {document.getElementsByTagName ('body')[0].className='content-overflow';}
-	else {document.getElementsByTagName ('body')[0].className='content-overflow';}
-	return false;
-}
-
-function zoommn(){
-	zoom=zoom-0.1;
-	//alert('min '+zoom);
-	document.body.style.MozTransform = "scale("+zoom+")";// для FireFox
-	document.body.style.transformOrigin="0 0";// для FireFox
-	document.body.style.OTransform = "scale("+zoom+")";// для Opera
-	document.body.style.OTransformOrigin="0 0";// для Opera
-	document.body.style.zoom = zoom;
-	return false;
-}
-
 function gray(){
 	if (document.getElementsByTagName ('html')[0].className=='grayscale') {document.getElementsByTagName ('html')[0].className='';}
 	else {document.getElementsByTagName ('html')[0].className='grayscale';}
-	return false;
-}
-
-function reset(){
-	zoom = 1;
-	document.getElementsByTagName ('html')[0].className='';
-	document.body.style.MozTransform = "scale("+zoom+")";// для FireFox
-	document.body.style.transformOrigin="0 0";// для FireFox
-	document.body.style.OTransform = "scale("+zoom+")";// для Opera
-	document.body.style.OTransformOrigin="0 0";// для Opera
-	document.body.style.zoom = zoom;
-	if (document.getElementsByTagName ('body')[0].className=='content-overflow') {document.getElementsByTagName ('body')[0].className='';}
-	else {document.getElementsByTagName ('body')[0].className='';}
 	return false;
 }
 
