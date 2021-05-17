@@ -589,6 +589,7 @@ div.vk{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(40px, auto);
+    align-items: center;
 }
 .category{
     margin: 0 0.25rem;
@@ -596,9 +597,42 @@ div.vk{
     text-align: center;
     color: white;
 }
+.category > div{
+    
+}
 .category_pic_1{
     background: #F5F5F5;
     background-image: url("../img/icons/gazpanel.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 40px;
+    height: 54px;
+}
+.category_pic_2{
+    background: #F5F5F5;
+    background-image: url("../img/icons/elpanel.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 40px;
+    height: 54px;
+}
+.category_pic_3{
+    background: #F5F5F5;
+    background-image: url("../img/icons/gazpanel.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 40px;
+    height: 54px;
+}
+.category_pic_4{
+    background: #F5F5F5;
+    background-image: url("../img/icons/elpanel.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
