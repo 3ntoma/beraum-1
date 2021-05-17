@@ -579,7 +579,7 @@ div.vk{
 /*--- Category grid ---*/
 .top_category{
     width: 100%;
-    background: #141416;
+    background: #17171a;
     height: 115px;
     padding: 10px 0;
     position: relative;
@@ -605,7 +605,7 @@ div.vk{
 }
 .category a:hover{
     text-decoration: none;
-    color: #2997ff;
+    color: #105FFF;
 }
 .category_name{
     font-size: 12px;
@@ -653,7 +653,7 @@ div.vk{
     background-size: contain;
     background-position: bottom;
     position: sticky;
-    margin: 0 auto 7px; 
+    margin: 0 auto 7px;
     width: 44px;
     height: 54px;
 }
