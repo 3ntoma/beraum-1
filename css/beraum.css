@@ -579,12 +579,16 @@ div.vk{
 /*--- Category grid ---*/
 .top_category{
     width: 100%;
-    background-color: rgba(29, 29, 31, 1);
+    background: rgba(0,0,0,0.9);
+    height: 115px;
     padding: 10px 0;
+    position: relative;
+    overflow: hidden;
 }
 .category_container{
     max-width: 1185px;
-    margin: 0 auto;
+    height: 100%;
+    margin: 0px auto;
     display: flex;
     justify-content: center;
 }
@@ -668,7 +672,7 @@ div.vk{
     color: #2f3132;
     max-width: 1185px;
     margin: 0 auto;
-    top: 30%;
+    top: 20%;
     left: 20%;
 }
 .first_catalog{
