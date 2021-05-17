@@ -343,7 +343,7 @@ main{
     display: flex;
 }
 .info_row_img{
-    background-image: url("../img/icons/HandOK.png");
+    background-image: url("../img/images/HandOK.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
