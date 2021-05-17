@@ -610,7 +610,6 @@ div.vk{
     
 }
 .category_pic_1{
-    background-color: rgba(29, 29, 31, 0.7);
     background-image: url("../img/icons/gazpanel_1.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -621,7 +620,6 @@ div.vk{
     height: 54px;
 }
 .category_pic_2{
-    background-color: rgba(29, 29, 31, 0.7);
     background-image: url("../img/icons/elpanel_1.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -632,7 +630,6 @@ div.vk{
     height: 54px;
 }
 .category_pic_3{
-    background-color: rgba(29, 29, 31, 0.7);
     background-image: url("../img/icons/kapuch.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -643,7 +640,6 @@ div.vk{
     height: 54px;
 }
 .category_pic_4{
-    background-color: rgba(29, 29, 31, 0.7);
     background-image: url("../img/icons/kapuch.svg");
     background-repeat: no-repeat;
     background-size: contain;
