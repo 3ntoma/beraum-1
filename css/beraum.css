@@ -132,23 +132,6 @@ main{
     padding-top: 41px;
 }
 /*-------------------- TOP CONTENT ----------------*/
-.top__category{
-    margin: 0.25rem 1rem 0.25rem 1rem;
-}
-.top__category{
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(40px, auto);
-    display: none;
-}
-.category{
-    margin: 1px;
-    border: 1px solid black;
-    border-radius: 5px;
-    text-align: center;
-}
 /*-------- SLIDER --------*/
 .top__slider{
     background-color: white;
@@ -581,4 +564,32 @@ div.vk{
     align-items: center;
     margin: 0 !important;
     letter-spacing: 0.05em;
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*--------------------------------- CATALOG PAGE --------------------------*/
+/*-------------------------------------------------------------------------*/
+/*----------------------------- MAIN -----------------------------*/
+/*--- Category grid ---*/
+.top__category{
+    padding-top: 2rem;
+    max-width: 1185px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(40px, auto);
+}
+.category{
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+/*--- FIRST CATALOG ---*/
+.first_catalog{
+    height: 1000px;
 }
