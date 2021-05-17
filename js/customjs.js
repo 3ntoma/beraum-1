@@ -5,24 +5,6 @@ selectElement('.button-toggle').addEventListener('click', () => {
 });*/
 
 $(document).ready(function(){
-  $('.sliderban').slick({
-	dots: false,
-	arrows: true,
-	infinite: true,
-	autoplay : true,
-	speed: 1000,
-	slidesToShow: 8,
-	slidesToScroll: 1,
-	edgeFriction: 0,
-	centerMode: true,
-	variableWidth: true,
-	draggable: true,
-	pauseOnHover: false,
-	pauseOnFocus: false
-  });
-});
-
-$(document).ready(function(){
 	$('.sliderban_1').slick({
 	  dots: true,
 	  arrows: true,
