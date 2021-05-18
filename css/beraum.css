@@ -529,33 +529,39 @@ div.ozon{
     background-size: contain;
     cursor: pointer;
     opacity: 1;
+    filter: grayscale(1);
 }
 div.wildberries{
     background: url("../img/icons/wb.png");
     background-size: contain;
     cursor: pointer;
     opacity: 1;
+    filter: grayscale(1);
 }
 div.yamarket{
     background: url("../img/icons/ym.png");
     background-size: contain;
     cursor: pointer;
     opacity: 1;
+    filter: grayscale(1);
 }
 div.instagram{
     background: url("../img/icons/ig.svg");
     background-size: contain;
     cursor: pointer;
     opacity: 1;
+    filter: grayscale(1);
 }
 div.vk{
     background: url("../img/icons/vk.svg");
     background-size: contain;
     cursor: pointer;
     opacity: 1;
+    filter: grayscale(1);
 }
 .vk:hover, .instagram:hover, .yamarket:hover, .wildberries:hover, .ozon:hover {
     opacity: 0.7;
+    filter: grayscale(0);
 }
 .footer_end {
     padding-top: 10px;
