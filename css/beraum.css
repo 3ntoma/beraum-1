@@ -344,8 +344,8 @@ main{
 .info_row_img{
     background-image: url("../img/images/HandOK.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: right;
     position: relative;
     height: 450px;
     width: 55%;
@@ -392,8 +392,8 @@ main{
 .advant_img_1 {
     background: url("../img/images/rub.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: left;
     position: relative;
     height: 400px;
     width: 55%;
@@ -405,8 +405,8 @@ main{
 .advant_img_2{
     background-image: url("../img/images/hand.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: right;
     position: relative;
     height: 400px;
     width: 55%;
@@ -414,8 +414,8 @@ main{
 .advant_img_3{
     background-image: url("../img/images/package.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: left;
     position: relative;
     height: 400px;
     width: 55%;
