@@ -705,11 +705,8 @@ div.vk{
     position: relative;
     z-index: 2;
     margin-bottom: 100px;
-    display: flex;
-    flex-flow: row wrap;
     align-items: center;
     transition: all .5s ease 0s;
-    clear: none;
     width: 100%;
 }
 .prod_item{
