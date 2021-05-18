@@ -751,7 +751,7 @@ div.inner{
     background: #f5f5f7;
     display: block;
     z-index: 2;
-    max-width: 275px;
+    max-width: 80%;
     height: auto;
 }
 .more_info{
