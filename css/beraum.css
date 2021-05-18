@@ -788,6 +788,6 @@ div.vk{
     display: block;
 }
 .inner:hover{
-    border: 1px solid black;
     height: 375px;
+    border: 1px solid black;
 }
