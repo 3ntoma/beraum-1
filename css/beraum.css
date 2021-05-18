@@ -693,17 +693,16 @@ div.vk{
     color: black;
 }
 .first_catalog{
+    width: 100%;
     padding-top: 60px;
     background: #fff;
 }
 .catalog_container{
     max-width: 1185px;
     margin: 0 auto;
-    height: 1000px;
 }
 .product_grid{
     position: relative;
-    float: right;
     z-index: 2;
     margin-bottom: 100px;
     display: flex;
