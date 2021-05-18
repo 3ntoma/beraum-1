@@ -780,6 +780,8 @@ div.vk{
     color: #000;
 }
 .more_info{
+    font-size: 14px;
+    padding-top: 1rem;
     display: none;
 }
 .inner:hover .more_info{
@@ -787,4 +789,5 @@ div.vk{
 }
 .inner:hover{
     border: 1px solid black;
+    height: 100px;
 }
