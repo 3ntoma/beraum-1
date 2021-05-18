@@ -713,8 +713,8 @@ div.vk{
     display: block;
     height: auto;
     padding: 0;
-        padding-right: 0px;
-        padding-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
     background: #fff;
     position: relative;
     align-self: flex-start;
@@ -789,5 +789,5 @@ div.vk{
 }
 .inner:hover{
     border: 1px solid black;
-    height: 100px;
+    height: 375px;
 }
