@@ -41,7 +41,8 @@ header{
     transition: 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
 }
 .active a{
-    color: red !important; 
+    color:#fff !important;
+    opacity: 1;
 }
 .header {
     height: 44px;
