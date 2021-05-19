@@ -860,7 +860,7 @@ div.vk{
     opacity: 1;
 }
 ._hover{
-    border: 1px solid rgba(0,0,0,0.3) !important;
+    border: 1px solid rgba(0,0,0,0.1) !important;
     z-index: 100;
 }
 /*
