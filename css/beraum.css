@@ -802,31 +802,19 @@ div.vk{
 }
 .product-btn {
     text-align: center;
+    margin-bottom: 30px;
 }
 .mp-btn {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
-    letter-spacing: .02em;
-    color: #105FFF;
+    color: #06c;
+    font-weight: 500;
+    cursor: pointer;
     text-decoration: none;
-    justify-content: center;
-    text-align: center;
-    transition: all .15s linear;
-    margin-bottom: 9pt;
-    margin-right: 9pt;
-    display: inline-block;
-    color: #fff;
-    background-color: #105FFF;
-    vertical-align: baseline;
-    border: 0;
-    padding: 10px 26px;
-    border: 2px solid transparent;
-    border-radius: 30px;
+    outline: none;
 }
 .mp-btn:hover {
-    background: transparent;
-    color: #2f3132;
-    border: 2px solid #2f3132;
+    text-decoration: underline;
 }
 .product_descript li{
     display: flex;
