@@ -800,6 +800,7 @@ div.vk{
     height: 375px;
     border: 1px solid black;
 }
+<<<<<<< HEAD
 .product-btn {
     margin: auto;
 }
@@ -828,6 +829,8 @@ div.vk{
     color: #2f3132;
     border: 2px solid #2f3132;
 }
+=======
+>>>>>>> 1c8ae386ce1d1fc3288b2b191c3bcf3c86b7c8c2
 .product_descript li{
     display: flex;
     width: 100%;
@@ -835,4 +838,10 @@ div.vk{
 }
 .product_descript li span{
     width: 50%;
+<<<<<<< HEAD
+=======
+}
+.product_descript li span:last-child{
+    text-align: right;
+>>>>>>> 1c8ae386ce1d1fc3288b2b191c3bcf3c86b7c8c2
 }
