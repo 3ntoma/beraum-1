@@ -113,13 +113,15 @@ $(window).on('scroll', function() {
     }
 });
 
-var catalog_div = document.getElementById("catalog_id");
-catalog_div.onmouseover = catalog_div.onmouseout = handler;
-
-function handler(event) {
-	var s = event.target.classList.value;
-	if (event.type == 'mouseover' && s.indexOf("prod_item") !== -1) {
-		var h = event.target.offsetHeight;
-		event.target.style.height = h + 'px';
+$(".prod_item").hover(function (event){
+	event.preventDefault();
+	if(event.type == "mouseenter"){
+		var h = event.delegateTarget.offsetHeight;
+		event.delegateTarget.style.height = h + 'px';
+		event.delegateTarget.children[0].children[1].children[1].style.display = "block";	
 	}
-}
+	if(event.type == "mouseleave"){
+		event.delegateTarget.style.height = '';
+		event.delegateTarget.children[0].children[1].children[1].style.display = "none";	
+	}   
+  });

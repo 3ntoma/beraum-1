@@ -794,7 +794,6 @@ div.vk{
     display: none;
 }
 .inner:hover .more_info{
-    display: block;
 }
 .inner:hover{
     border: 1px solid black;
