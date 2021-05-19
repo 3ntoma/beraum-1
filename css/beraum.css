@@ -846,5 +846,7 @@ div.vk{
     transition: transform .5s ease;
 }
 .product_img img:hover{
+    -webkit-transform: scale(1.1) translateY(-45%) translateX(-45%);
+    -ms-transform: scale(1.1) translateY(-45%) translateX(-45%);
     transform: scale(1.1) translateY(-45%) translateX(-45%);
 }
