@@ -808,13 +808,19 @@ div.vk{
     font-size: 16px;
     line-height: 18px;
     color: #06c;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     text-decoration: none;
     outline: none;
 }
 .mp-btn:hover {
     text-decoration: underline;
+}
+.descript_type {
+    margin: 5px 0;
+}
+.descript_text {
+    font-weight: 500;
 }
 .product_descript li{
     display: flex;
