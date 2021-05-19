@@ -112,3 +112,9 @@ $(window).on('scroll', function() {
 		$nav.addClass('header-shadow');
     }
 });
+
+var catalog_div = document.getElementById("catalog_1");
+
+catalog_div.onMouseEnter=function(){
+	console.log(catalog_div);
+}
