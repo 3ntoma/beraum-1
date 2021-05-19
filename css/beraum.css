@@ -832,7 +832,7 @@ div.vk{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px solid rgba(0,0,0,0.16);
     align-content: center;
 }
 .product_descript li span{
