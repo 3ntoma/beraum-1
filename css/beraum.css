@@ -846,8 +846,20 @@ div.vk{
     -ms-transform: scale(1.1) translateY(-45%) translateX(-45%);
     transform: scale(1.1) translateY(-45%) translateX(-45%);
 }
-._hover > div{
+.bg-orange{
+    background-color: #f55a00;
+}
+.bg-turquoise{
     background-color: #00ead0;
+}
+.bg-blue{
+    background-color: skyblue;
+}
+._hover div.product_img .bg{
+    opacity: 1;
+}
+._hover{
+    border: 1px solid rgba(0,0,0,0.3) !important;
     z-index: 100;
 }
 /*
