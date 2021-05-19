@@ -41,7 +41,8 @@ header{
     transition: 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
 }
 .active a{
-    color: red !important; 
+    color:#fff !important;
+    opacity: 1;
 }
 .header {
     height: 44px;
@@ -799,7 +800,6 @@ div.vk{
     height: 375px;
     border: 1px solid black;
 }
-<<<<<<< HEAD
 .product-btn {
     margin: auto;
 }
@@ -827,7 +827,7 @@ div.vk{
     background: transparent;
     color: #2f3132;
     border: 2px solid #2f3132;
-=======
+}
 .product_descript li{
     display: flex;
     width: 100%;
@@ -835,5 +835,4 @@ div.vk{
 }
 .product_descript li span{
     width: 50%;
->>>>>>> 0a55d48d4a6d0f0b97c21ed49c86222c5c08f293
 }
