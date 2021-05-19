@@ -602,6 +602,7 @@ div.vk{
     justify-content: center;
 }
 .category{
+    padding: 0 20px;
     border-radius: 5px;
     text-align: center;
     color: #f5f5f7;
