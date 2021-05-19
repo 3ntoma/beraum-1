@@ -791,7 +791,7 @@ div.vk{
 .more_info{
     font-size: 14px;
     padding-top: 1rem;
-    display: none;
+    display: block;
 }
 .product-btn {
     text-align: center;
@@ -839,4 +839,14 @@ div.vk{
 }
 ._hover > div{
     background-color: #f5f5f5;
+}
+._hover > div:first-child{
+    border-style: solid;
+    border-color:rgba(0,0,0,0.3);
+    border-width: 1px 1px 0 1px;
+}
+._hover > div:last-child{
+    border-style: solid;
+    border-color:rgba(0,0,0,0.3);
+    border-width: 0 1px 1px 1px;
 }
