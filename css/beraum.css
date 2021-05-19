@@ -717,6 +717,7 @@ div.vk{
     align-items: center;
     transition: all .5s ease 0s;
     width: 100%;
+    margin: 0 !important;
 }
 .prod_item{
     display: block;
@@ -817,13 +818,13 @@ div.vk{
 }
 .product_descript li{
     display: flex;
-    width: 100%;
+    max-width: 100%;
     justify-content: space-between;
     border-bottom: 1px solid rgba(0,0,0,0.16);
     align-content: center;
 }
 .product_descript li span{
-    width: 50%;
+    max-width: 50%;
 }
 .product_descript li span:last-child{
     text-align: right;
