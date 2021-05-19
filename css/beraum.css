@@ -807,3 +807,6 @@ div.vk{
 .product_descript li span{
     width: 50%;
 }
+.product_descript li span:last-child{
+    text-align: right;
+}
