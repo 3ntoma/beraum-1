@@ -621,14 +621,12 @@ div.vk{
 }
 .category_name{
     font-size: 12px;
-    width: 100%;
+    width: auto;
     height: auto;
 }
 .category_new{
-    position: absolute;
-    top: 50%;
-    right: 30%;
-    text-align: right;
+    position: relative;
+    text-align: center;
     color: #f55a00;
     font-size: 10px;
 }
