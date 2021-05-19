@@ -113,8 +113,13 @@ $(window).on('scroll', function() {
     }
 });
 
-var catalog_div = document.getElementById("catalog_1");
+var catalog_div = document.getElementById("catalog_id");
+catalog_div.onmouseover = catalog_div.onmouseout = handler;
 
-catalog_div.onMouseEnter=function(){
-	console.log(catalog_div);
+function handler(event) {
+	var s = event.target.classList.value;
+	if (event.type == 'mouseover' && s.indexOf("prod_item") !== -1) {
+		var h = event.target.offsetHeight;
+		event.target.style.height = h + 'px';
+	}
 }
