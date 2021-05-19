@@ -40,6 +40,9 @@ h1 {
 header{
     transition: 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
 }
+.active a{
+    color: red !important; 
+}
 .header {
     height: 44px;
     background: rgba(0,0,0,0.92);
@@ -795,4 +798,12 @@ div.vk{
 .inner:hover{
     height: 375px;
     border: 1px solid black;
+}
+.product_descript li{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.product_descript li span{
+    width: 50%;
 }
