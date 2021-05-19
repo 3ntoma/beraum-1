@@ -115,13 +115,16 @@ $(window).on('scroll', function() {
 
 $(".prod_item").hover(function (event){
 	event.preventDefault();
+	console.log(event.delegateTarget);
 	if(event.type == "mouseenter"){
 		var h = event.delegateTarget.offsetHeight;
 		event.delegateTarget.style.height = h + 'px';
+		event.delegateTarget.children[0].classList.toggle("_hover");
 		event.delegateTarget.children[0].children[1].children[1].style.display = "block";	
 	}
 	if(event.type == "mouseleave"){
 		event.delegateTarget.style.height = '';
+		event.delegateTarget.children[0].classList.toggle("_hover");
 		event.delegateTarget.children[0].children[1].children[1].style.display = "none";	
 	}   
   });
