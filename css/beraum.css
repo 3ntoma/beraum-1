@@ -801,7 +801,7 @@ div.vk{
     border: 1px solid black;
 }
 .product-btn {
-    margin: auto;
+    text-align: center;
 }
 .mp-btn {
     font-size: 14px;
