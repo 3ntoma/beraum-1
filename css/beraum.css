@@ -863,14 +863,26 @@ div.vk{
     border: 1px solid rgba(0,0,0,0.1) !important;
     z-index: 100;
 }
-/*
-._hover > div:first-child{
-    border-style: solid;
-    border-color:rgba(0,0,0,0.3);
-    border-width: 1px 1px 0 1px;
+.product_colors{
+    width: 100%;
 }
-._hover > div:last-child{
-    border-style: solid;
-    border-color:rgba(0,0,0,0.3);
-    border-width: 0 1px 1px 1px;
-}*/
+.color_theme{
+    padding-top: 1rem;
+    display: flex;
+}
+.color_theme > div{
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    margin: 0 4px 4px 0;
+}
+.color_black{
+    background: black;
+}
+.color_white{
+    background: white;
+}
+.color_gray{
+    background: gray;
+}
