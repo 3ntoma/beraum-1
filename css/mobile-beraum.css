@@ -116,4 +116,11 @@ body._touch .show{
     .footer__container{
         display: block;
     }
+    .category_container{
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-left: calc(max(22px, env(safe-area-inset-left)));
+        padding-right: calc(max(22px, env(safe-area-inset-right))); 
+        justify-content:start;
+    }
 }

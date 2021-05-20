@@ -890,3 +890,17 @@ div.vk{
 .color_gray{
     background: gray;
 }
+._touch .more_info{
+    display: block;
+}
+._touch .prod_item{
+    background: white;
+    z-index: 100;
+}
+._touch .catalog_container{
+    padding-left: calc(max(22px, env(safe-area-inset-left)));
+    padding-right: calc(max(22px, env(safe-area-inset-right)));
+}
+._touch .inner{
+    border: 1px solid rgba(0,0,0,0.1) !important;
+}
