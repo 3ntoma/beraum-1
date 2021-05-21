@@ -115,7 +115,6 @@ $(window).on('scroll', function() {
 
 $(".prod_item").hover(function (event){
 	event.preventDefault();
-	console.log(event.delegateTarget);
 	if(event.type == "mouseenter"){
 		var h = event.delegateTarget.offsetHeight;
 		event.delegateTarget.style.height = h + 'px';
