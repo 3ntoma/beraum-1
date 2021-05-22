@@ -725,7 +725,7 @@ div.vk{
 .title_text_category h1 {
     font-size: 65px !important;
 }
-.main_text_category {
+.main_text_category p{
     font-size: 18px !important;
 }
 .product_grid{
