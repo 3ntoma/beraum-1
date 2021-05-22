@@ -870,22 +870,20 @@ div.vk{
 .product_colors{
     width: 100%;
 }
-.colot_mane {
-    justify-content: space-between !important;
-}
-.color_theme {
+.color_theme{
     padding-top: 1rem;
     display: flex;
+    justify-content: space-between;
 }
-.color_theme > div{
+.palette{
+    display: flex;
+}
+.palette > div{
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: 50%;
     width: 16px;
     height: 16px;
     margin: 0 4px 4px 0;
-}
-.colors {
-    justify-content: end;
 }
 .color_black{
     background: black;
