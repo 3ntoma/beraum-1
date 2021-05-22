@@ -688,13 +688,14 @@ div.vk{
     height: 54px;
 }
 /*--- FIRST CATALOG ---*/
+
 .first_category_img{
     background: #F5F5F5;
     width: 100%;
 }
 .first_big_img{
-    background: #F5F5F5;
-    background-image: url("../img/slider/sliderbar_1.png");
+    background: #FFDB58;
+    background-image: url("../img/catalog/bg_one.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -707,10 +708,10 @@ div.vk{
     max-width: 1185px;
     margin: 0 auto;
     top: 20%;
-    left: 20%;
-    font-size: 65px !important;
+    left: 14%;
     font-weight: 500 !important;
     color: black;
+    width: 35%;
 }
 .first_catalog{
     width: 100%;
@@ -720,6 +721,12 @@ div.vk{
 .catalog_container{
     max-width: 1185px;
     margin: 0 auto;
+}
+.title_text_category h1 {
+    font-size: 65px !important;
+}
+.main_text_category {
+    font-size: 18px !important;
 }
 .product_grid{
     position: relative;
@@ -740,6 +747,16 @@ div.vk{
     background: #fff;
     position: relative;
     align-self: flex-start;
+}
+
+.second_big_img{
+    background: #5885ff;
+    background-image: url("../img/catalog/bg_one.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 600px;
 }
 
 /*------------ PRODUCT STYLE -------------*/
@@ -858,6 +875,9 @@ div.vk{
 }
 .bg-blue{
     background-color: skyblue;
+}
+.bg-yellow {
+    background: rgb(252, 230, 32);
 }
 ._hover div.product_img .bg{
     opacity: 1;
