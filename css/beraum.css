@@ -870,7 +870,10 @@ div.vk{
 .product_colors{
     width: 100%;
 }
-.color_theme{
+.colot_mane {
+    justify-content: space-between !important;
+}
+.color_theme {
     padding-top: 1rem;
     display: flex;
 }
@@ -880,6 +883,9 @@ div.vk{
     width: 16px;
     height: 16px;
     margin: 0 4px 4px 0;
+}
+.colors {
+    justify-content: end;
 }
 .color_black{
     background: black;
