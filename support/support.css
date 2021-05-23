@@ -180,7 +180,7 @@
     background: url("/img/support/BlogHandshake");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     display: flex;
 }
 .con_logo_info{
