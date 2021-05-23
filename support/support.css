@@ -184,14 +184,14 @@
     display: flex;
     background-attachment: fixed;
 }
-.con_logo_info{
+.part_logo_info{
     margin: auto;
 }
-.con_logo_text{
+.part_logo_text{
     font-size: 30px;
     font-weight: bold;
 }
-.con_logo_question{
+.part_logo_question{
     font-weight: 28px;
     font-weight: 600;
 }
@@ -206,27 +206,27 @@
 .partners_grid.row{
     margin: 0;
 }
-.con_item{
+.part_item{
     padding: 10px;
 }
-.con_block{
+.part_block{
     padding: 15px;
     border-radius: 10px;
     background: #f5f5f7;
     height: 100%;
 }
-.con_img{
+.part_img{
     margin: 15px 0;
 }
-.con_text p{
+.part_text p{
     text-align: center;
     font-size: 18px;
     font-weight: bold;
 }
-.con_more_info{
+.part_more_info{
     padding: 5px 15px;
 }
-.con_more_info a{
+.part_more_info a{
     text-align: center;
     font-size: 20px;
     font-weight: 600;
