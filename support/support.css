@@ -182,6 +182,7 @@
     background-repeat: no-repeat;
     background-position: bottom;
     display: flex;
+    background-attachment: fixed;
 }
 .con_logo_info{
     margin: auto;
