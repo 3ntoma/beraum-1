@@ -718,6 +718,7 @@ div.vk{
     font-size: 65px !important;
 }
 .title_text_category_1 {
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     --main-color: #ff5ea7;
@@ -732,6 +733,7 @@ div.vk{
     font-size: 65px !important;
 }
 .title_text_category_2 {
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     --main-color: #5eff66;
@@ -745,6 +747,7 @@ div.vk{
     background-image: linear-gradient(225deg, #382aff 36.04%, #8820ff 88.83%, #fa3e00 220.3%);
 }
 .title_text_category_3 {
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     --main-color: #ff5ea7;
@@ -758,6 +761,7 @@ div.vk{
     background-image: linear-gradient(225deg, #3316f1 36.04%, #ff1e1e 88.83%, #11c900 220.3%);
 }
 .title_text_category_4 {
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     --main-color: #ff5ea7;
@@ -771,6 +775,7 @@ div.vk{
     background-image: linear-gradient(225deg, #ff9d1c 66.04%, #ffec41 88.83%, #ff6530 220.3%);
 }
 .title_text_category_5 {
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     --main-color: #ff5ea7;
