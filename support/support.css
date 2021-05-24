@@ -4,9 +4,12 @@
 }
 .support_logo{
     width: 100%;
-    height: 400px;
-    background: lemonchiffon;
-    background-size: contain;
+    height: 500px;
+    background: url("/img/support/technical_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:right;
+    background-attachment: fixed;
     display: flex;
 }
 .sup_logo_info{
