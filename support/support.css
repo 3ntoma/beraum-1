@@ -21,8 +21,8 @@
     color: #fff;
 }
 .support_container{
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding-top: 55px;
+    padding-bottom: 55px;
     max-width: 1185px;
     margin: 0 auto;
     padding-left: calc(max(22px, env(safe-area-inset-left)));
@@ -37,7 +37,6 @@
 }
 .sup_block{
     padding: 15px;
-    background: #f5f5f7;
 }
 .sup_1{
     background: url("/img/support/customer-support.svg");
@@ -52,12 +51,13 @@
 }
 .sup_text p{
     text-align: center;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: bold;
 }
 .sup_more_info{
+    text-align: center;
     font-size: 16px;
-    padding: 5px 15px;
+    padding: 15px 15px;
 }
 .send_row{
     display: flex;
@@ -67,8 +67,11 @@
     margin: 10px auto;
     font-size: 16px;
 }
+.send_row div:last-child{
+    margin-left: 5rem;
+}
 .send_info_block{
-    margin-top: 50px
+    margin-top: 55px
 }
 
 .sup_but {
@@ -128,7 +131,6 @@ input {
     width: 300px;
     border: none;
     border-bottom: 1px solid #ccc;
-    background: #f5f5f7;
 }
 input:focus {
     outline: none;
