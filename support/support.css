@@ -49,14 +49,12 @@
 .sup_img{
     margin: 30px 0;
 }
-.sup_text p{
+.sup_text h1{
     text-align: center;
-    font-size: 28px;
-    font-weight: bold;
 }
 .sup_more_info{
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     padding: 15px 15px;
 }
 .send_row{
@@ -85,21 +83,21 @@
     align-items: center;
     font-size: 16px;
     letter-spacing: .05em;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 500;
     padding: 12px 20px;
-    color: #105FFF;
-    background: white;
-    border: 1px solid;
+    color: #fff;
+    background: #105FFF;
+    border: 2px solid transparent;
     cursor: pointer;
     transition: .3s linear;
     margin-bottom: 30px;
-    border-radius: 10px;
+    border-radius: 30px;
     outline: none;
 }
 .sup_but:hover {
-    background: #105FFF;
-    color: white;
+    background: transparent;
+    color: #2f3132;
+    border: 2px solid #2f3132;
 }
 .sup_but:after {
     background-image: url('/img/support/mail.svg');
@@ -149,7 +147,7 @@ label {
     -webkit-transition: 0.2s ease all;
     top: -15px;
     font-size: 16px;
-    color: #105FFF;
+    color: #2f3132;
 }
 
 .bar {
@@ -189,7 +187,7 @@ input:focus ~ .bar:after {
     background: url("/img/support/partners.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:right;
+    background-position: center;
     background-attachment: fixed;
     display: flex;
 }
