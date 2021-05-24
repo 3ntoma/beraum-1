@@ -11,6 +11,7 @@
     background-position:right;
     background-attachment: fixed;
     display: flex;
+    filter: brightness(50%);
 }
 .sup_logo_info{
     margin: auto;
@@ -18,6 +19,7 @@
 .sup_logo_text{
     font-size: 30px;
     font-weight: bold;
+    color: black;
 }
 .support_container{
     padding-top: 110px;
@@ -44,33 +46,18 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 50px;
-}
-.sup_2{
-    background: url("/img/support/faq-circular-filled-button.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 50px;
-}
-.sup_3{
-    background: url("/img/support/manual.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 50px;
+    height: 70px;
 }
 .sup_img{
-    margin: 15px 0;
+    margin: 30px 0;
 }
 .sup_text p{
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
 }
 .sup_more_info{
+    font-size: 16px;
     padding: 5px 15px;
 }
 .send_row{
@@ -79,10 +66,11 @@
     justify-content: center;
     align-items: center;
     margin: 10px auto;
+    font-size: 16px;
 }
 .sup_but{
     display: flex;
-    margin: 10px auto;
+    margin: 30px auto;
     border-radius: 10px;
     width: 200px;
     height: 35px;
