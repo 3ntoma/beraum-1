@@ -22,12 +22,9 @@ $(document).ready(function(){
 	  pauseOnHover: false,
 	  pauseOnFocus: false
 	});
-   
-  });
-
-$(document).ready(function(){
 	initCaptcha('#captcha');
-});
+  });
+/*---- КАПЧА ----*/
 function refresh_ca(captcha_reID){
 	initCaptcha(captcha_reID);
 	$(captcha_reID)
@@ -37,7 +34,6 @@ function refresh_ca(captcha_reID){
 		.addClass('not-valid')
 		.removeClass('is-valid');
 };
-  
 function initCaptcha(captchaID) {
 	let captcha = generateCaptcha(),
 	captchaAns = eval(captcha);
@@ -66,7 +62,7 @@ function generateCaptcha() {
 	}
 	return randomNo(10)+" "+randomOp()+" "+randomNo(10);
 }
-
+/*--- STYLE ---*/
 function gray(){
 	if (document.getElementsByTagName ('html')[0].className=='grayscale') {document.getElementsByTagName ('html')[0].className='';}
 	else {document.getElementsByTagName ('html')[0].className='grayscale';}
