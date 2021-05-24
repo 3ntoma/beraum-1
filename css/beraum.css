@@ -741,7 +741,7 @@ div.vk{
     --fade1: 175%;
     --fade2: 200%;
     --fade3: 350%;
-    background-image: linear-gradient(225deg, #0e00ce 36.04%, #7700ff 88.83%, #fa3e00 220.3%);
+    background-image: linear-gradient(225deg, #382aff 36.04%, #8820ff 88.83%, #fa3e00 220.3%);
 }
 .title_text_category_3 {
     background-clip: text;
@@ -754,7 +754,7 @@ div.vk{
     --fade1: 175%;
     --fade2: 200%;
     --fade3: 350%;
-    background-image: linear-gradient(225deg, #5effdc 36.04%, #cb7301 88.83%, #ff6530 220.3%);
+    background-image: linear-gradient(225deg, #3316f1 36.04%, #ff1e1e 88.83%, #11c900 220.3%);
 }
 .title_text_category_4 {
     background-clip: text;
@@ -767,7 +767,7 @@ div.vk{
     --fade1: 175%;
     --fade2: 200%;
     --fade3: 350%;
-    background-image: linear-gradient(225deg, #cb7301 36.04%, #ffec41 88.83%, #ff6530 220.3%);
+    background-image: linear-gradient(225deg, #ff9d1c 66.04%, #ffec41 88.83%, #ff6530 220.3%);
 }
 .title_text_category_5 {
     background-clip: text;
@@ -780,7 +780,7 @@ div.vk{
     --fade1: 175%;
     --fade2: 200%;
     --fade3: 350%;
-    background-image: linear-gradient(225deg, #a95eff 36.04%, #01cb1c 88.83%, #ff6530 220.3%);
+    background-image: linear-gradient(225deg, #00aa17 36.04%, #adc931  88.83%, #ff6530 220.3%);
 }
 .main_text_category p{
     font-size: 20px !important;
