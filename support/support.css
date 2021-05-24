@@ -67,6 +67,11 @@
     margin: 10px auto;
     font-size: 16px;
 }
+.kapcha_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .send_row div:last-child{
     margin-left: 5rem;
 }

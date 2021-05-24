@@ -25,6 +25,48 @@ $(document).ready(function(){
    
   });
 
+$(document).ready(function(){
+	initCaptcha('#captcha');
+});
+function refresh_ca(captcha_reID){
+	initCaptcha(captcha_reID);
+	$(captcha_reID)
+		.val('')
+		.addClass("invalid")
+		.removeClass("correct")
+		.addClass('not-valid')
+		.removeClass('is-valid');
+};
+  
+function initCaptcha(captchaID) {
+	let captcha = generateCaptcha(),
+	captchaAns = eval(captcha);
+	$(captchaID)
+		.attr("placeholder", captcha+" = ")
+		.addClass('invalid')
+		.on("keyup", function() {
+		if ($(this).val() !== "" && $(this).val() == captchaAns){
+			$(this).removeClass("invalid");
+			$(this).addClass("correct");
+		}
+		else{
+			$(this).removeClass("correct");
+			$(this).addClass("invalid");
+		}
+		});
+	return captchaAns;
+};
+function generateCaptcha() {
+	let randomNo = function(n) {
+	  return Math.floor(Math.random()*n + 1);
+	}
+
+	let randomOp = function() {
+	  return "+-*"[randomNo(3)-1];
+	}
+	return randomNo(10)+" "+randomOp()+" "+randomNo(10);
+}
+
 function gray(){
 	if (document.getElementsByTagName ('html')[0].className=='grayscale') {document.getElementsByTagName ('html')[0].className='';}
 	else {document.getElementsByTagName ('html')[0].className='grayscale';}
