@@ -230,11 +230,11 @@ input:focus ~ .bar:after {
     text-align: left;
     font-size: 24px;
     font-weight: bold;
-    height: 100px;
 }
 .part_more_info{
     padding: 5px 15px;
 }
 .part_more_info ul li{
     font-size: 16px;
+    margin-bottom: 15px;
 }
