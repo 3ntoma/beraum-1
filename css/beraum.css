@@ -726,7 +726,8 @@ div.vk{
     font-size: 65px !important;
 }
 .main_text_category p{
-    font-size: 18px !important;
+    font-size: 20px !important;
+    padding-top: 20px;
 }
 .product_grid{
     position: relative;
@@ -750,7 +751,7 @@ div.vk{
 }
 
 .second_big_img{
-    background: #5885ff;
+    background: #5990FF;
     background-image: url("../img/catalog/bg_second.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -770,7 +771,7 @@ div.vk{
 }
 
 .fourth_big_img {
-    background: #8d6033;
+    background: #fff447;
     background-image: url("../img/catalog/bg_fourthpng.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -779,8 +780,8 @@ div.vk{
     height: 600px;
 }
 .fifth_big_img{
-    background: #8d6033;
-    background-image: url("../img/catalog/bg_fourthpng.png");
+    background: rgb(121, 255, 165);
+    background-image: url("../img/catalog/bg_fifth.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -896,7 +897,7 @@ div.vk{
     transform: scale(1.1) translateY(-45%) translateX(-45%);
 }
 .bg-orange{
-    background-color: #f55a00;
+    background-color: #ff8a46;
 }
 .bg-turquoise{
     background-color: #00ead0;
@@ -904,8 +905,17 @@ div.vk{
 .bg-blue{
     background-color: skyblue;
 }
+.bg-lgreen{
+    background-color: rgb(121, 255, 165);
+}
 .bg-yellow {
     background: rgb(252, 230, 32);
+}
+.bg-purple {
+    background: rgb(208, 32, 252);
+}
+.bg-pink {
+    background: rgb(255, 101, 147);
 }
 ._hover div.product_img .bg{
     opacity: 1;
@@ -941,6 +951,15 @@ div.vk{
 }
 .color_gray{
     background: rgb(230, 230, 230);
+}
+.color_red{
+    background: red;
+}
+.color_yellow{
+    background: yellow;
+}
+.color_green{
+    background: green;
 }
 ._touch .more_info{
     display: block;
