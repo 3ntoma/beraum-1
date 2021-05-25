@@ -185,8 +185,6 @@ body._touch .show{
     .category_container{
         overflow-x: auto;
         overflow-y: hidden;
-        padding-left: calc(max(22px, env(safe-area-inset-left)));
-        padding-right: calc(max(22px, env(safe-area-inset-right))); 
         justify-content:start;
         scrollbar-width: none;
         -ms-overflow-style: none;
