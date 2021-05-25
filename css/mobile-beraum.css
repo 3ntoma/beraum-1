@@ -193,3 +193,19 @@ body._touch .show{
         justify-content:start;
     }
 }
+/*------------------- CATALOG -------------------------*/
+@media (max-width: 767px){
+    .first_category_img{
+        padding-left: calc(max(22px, env(safe-area-inset-left)));
+        padding-right: calc(max(22px, env(safe-area-inset-right)));
+    }
+    .first_catalog{
+        padding-left: calc(max(22px, env(safe-area-inset-left)));
+        padding-right: calc(max(22px, env(safe-area-inset-right)));
+    }
+    .img_text_container{
+        left: 0;
+        width: 100%;
+    }
+    
+}
