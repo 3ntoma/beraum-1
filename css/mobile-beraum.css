@@ -194,6 +194,10 @@ body._touch .show{
         scrollbar-width: none;
         -ms-overflow-style: none;
         height: auto;
+        white-space: nowrap;
+    }
+    .title_text_category_1 span, .title_text_category_2 span, .title_text_category_3 span, .title_text_category_4 span, .title_text_category_5 span {
+        font-size: 4.5rem;
     }
 }
 /*------------------- CATALOG -------------------------*/

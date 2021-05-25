@@ -703,8 +703,8 @@ div.vk{
     max-width: 1185px;
     margin: 0 auto;
 }
-.title_text_category_1 h1, .title_text_category_2 h1, .title_text_category_3 h1, .title_text_category_4 h1, .title_text_category_5 h1 {
-    font-size: 65px !important;
+.title_text_category_1 span, .title_text_category_2 span, .title_text_category_3 span, .title_text_category_4 span, .title_text_category_5 span {
+    font-size: 65px;
 }
 .title_text_category_1 {
     -webkit-background-clip: text;
