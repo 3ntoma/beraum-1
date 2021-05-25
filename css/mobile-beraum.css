@@ -208,6 +208,9 @@ body._touch .show{
         width: 100%;
     }
     .prod_item{
+        padding: 0 !important;
+    }
+    .prod_item{
         margin-bottom: 2rem;
     }
 }
