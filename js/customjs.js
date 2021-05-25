@@ -1,10 +1,5 @@
-/*const selectElement = (element) => document.querySelector(element);
-
-selectElement('.button-toggle').addEventListener('click', () => {
-	selectElement('header').classList.toggle('active');
-});*/
-
 $(document).ready(function(){
+	/*- слайдер -*/
 	$('.sliderban_1').slick({
 	  dots: true,
 	  arrows: true,
@@ -22,53 +17,9 @@ $(document).ready(function(){
 	  pauseOnHover: false,
 	  pauseOnFocus: false
 	});
-	initCaptcha('#captcha');
   });
-/*---- КАПЧА ----*/
-function refresh_ca(captcha_reID){
-	initCaptcha(captcha_reID);
-	$(captcha_reID)
-		.val('')
-		.addClass("invalid")
-		.removeClass("correct")
-		.addClass('not-valid')
-		.removeClass('is-valid');
-};
-function initCaptcha(captchaID) {
-	let captcha = generateCaptcha(),
-	captchaAns = eval(captcha);
-	$(captchaID)
-		.attr("placeholder", captcha+" = ")
-		.addClass('invalid')
-		.on("keyup", function() {
-		if ($(this).val() !== "" && $(this).val() == captchaAns){
-			$(this).removeClass("invalid");
-			$(this).addClass("correct");
-		}
-		else{
-			$(this).removeClass("correct");
-			$(this).addClass("invalid");
-		}
-		});
-	return captchaAns;
-};
-function generateCaptcha() {
-	let randomNo = function(n) {
-	  return Math.floor(Math.random()*n + 1);
-	}
 
-	let randomOp = function() {
-	  return "+-*"[randomNo(3)-1];
-	}
-	return randomNo(10)+" "+randomOp()+" "+randomNo(10);
-}
-/*--- STYLE ---*/
-function gray(){
-	if (document.getElementsByTagName ('html')[0].className=='grayscale') {document.getElementsByTagName ('html')[0].className='';}
-	else {document.getElementsByTagName ('html')[0].className='grayscale';}
-	return false;
-}
-
+/*------------- MOBILE CHECK -----------------*/
 const isMobile = {
     Android: function () {
         return navigator.userAgent.match(/Android/i);
@@ -95,7 +46,6 @@ const isMobile = {
                 );
     }
 };
-
 function mobileCheck(){
 	if(isMobile.any()){
 	document.body.classList.add('_touch');
@@ -138,6 +88,7 @@ if(iconMenu){
 	});
 }
 
+/*----------------------- HEADER -----------------------*/
 $(window).on('scroll', function() {
     var $nav = $('header'),
         scroll = $(this).scrollTop();
@@ -151,6 +102,7 @@ $(window).on('scroll', function() {
     }
 });
 
+/*------------------------------- CATALOG HOVER ---------------------------*/
 $(".prod_item").hover(function (event){
 	event.preventDefault();
 	if(event.type == "mouseenter"){
@@ -166,6 +118,7 @@ $(".prod_item").hover(function (event){
 	}   
 });
 
+/*--------------------------- МАСКА ТЕЛЕФОНА -------------------------*/
 $('#phone-number')
 	.keydown(function (e){
 		var key = e.which || e.charCode || e.keyCode || 0;
@@ -210,3 +163,143 @@ $('#phone-number')
 			$phone.val('');
 		}
 	});
+
+/*-------------------------- КАПЧА ---------------------*/
+function refresh_ca(captcha_reID){
+	initCaptcha(captcha_reID);
+	$(captcha_reID)
+		.val('')
+		.addClass("invalid")
+		.removeClass("correct")
+		.addClass('not-valid')
+		.removeClass('is-valid');
+};
+function initCaptcha(captchaID) {
+	let captcha = generateCaptcha(),
+	captchaAns = eval(captcha);
+	$(captchaID)
+		.attr("placeholder", captcha+" = ")
+		.addClass('invalid')
+		.on("keyup", function() {
+		if ($(this).val() !== "" && $(this).val() == captchaAns){
+			$(this).removeClass("invalid");
+			$(this).addClass("correct");
+		}
+		else{
+			$(this).removeClass("correct");
+			$(this).addClass("invalid");
+		}
+		});
+	return captchaAns;
+};
+function generateCaptcha() {
+	let randomNo = function(n) {
+	  return Math.floor(Math.random()*n + 1);
+	}
+
+	let randomOp = function() {
+	  return "+-*"[randomNo(3)-1];
+	}
+	return randomNo(10)+" "+randomOp()+" "+randomNo(10);
+}
+
+/*---------------------------- Отправка на почту --------------------------*/
+function reqCheck(){
+	let name_row = document.getElementById('name').value;
+	let tel_row = document.getElementById('phone-number').value;
+	let email_row = document.getElementById('email').value;
+	let message_row = document.getElementById('msg').value;
+	$.ajax({
+		type: 'POST', 
+		url: 'mail.php', 
+		data: {"name": name_row, "email": email_row, "message": message_row, "tel": tel_row}
+	}).done(function(){
+		$("#supportForm").find("input").val("");
+		$("#supportForm").find("input").removeClass('is-valid');
+		$("#supportForm").find("textarea").val("");
+		$("#supportForm").find("textarea").removeClass('is-valid');
+		document.getElementById("supportForm").reset();
+		document.getElementById("success_send").style.display = "block";
+		return false;
+	});
+}
+
+/*------------------------ Валидатор ------------------------------------*/
+let simpleValidation = function(formID, captchaID){
+	let index = 0;
+	initCaptcha(captchaID); /*- инициализация капчи -*/
+    let validateForm = $(formID);
+    validateForm.each(function(){
+      let validateForm = $(this);
+      let validate = {};
+      let validatingLength = $(this).find('.validate').length;
+      for(let i = 1; i <= validatingLength; i++){
+        validate['input'+i] = false;
+      }
+      $('.validate').blur(function(){
+        let validateThisVal = $(this).val();
+        let validateThisType = $(this).attr('name');
+		
+        if(validateThisType === "email"){
+          index = 1;
+          let re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+          if(!validateThisVal.match(re)){
+            $(this).addClass('not-valid');
+            $(this).removeClass('is-valid');
+            return validate['input'+index] = false;
+          } else{
+            $(this).addClass('is-valid');
+            $(this).removeClass('not-valid');
+            return validate['input'+index] = true;
+          }
+        } 
+        if(validateThisType === "msg"){
+          index = 2;
+          let mes_reg = /.{10,100}$/;
+          if(!validateThisVal.match(mes_reg)){
+            $(this).addClass('not-valid');
+            $(this).removeClass('is-valid');
+            return validate['input'+index] = false;
+          } else{
+            $(this).addClass('is-valid');
+            $(this).removeClass('not-valid');
+            return validate['input'+index] = true;
+          }
+        }
+        if(validateThisType === "name"){
+          index = 3;
+          let name_re = /[a-zA-Z\а-яА-Я].{1,20}$/;
+          if(!validateThisVal.match(name_re)){
+            $(this).addClass('not-valid');
+            $(this).removeClass('is-valid');
+            return validate['input'+index] = false;
+          } else{
+            $(this).addClass('is-valid');
+            $(this).removeClass('not-valid');
+            return validate['input'+index] = true;
+          }
+        }
+        if(validateThisType === "captcha"){
+          index = 4;
+          if($(captchaID).hasClass('correct')){
+            return validate['input'+index] = true;
+          } else if($(captchaID).hasClass('invalid')){
+            return validate['input'+index] = false;
+          }
+        }
+      });
+      validateForm.submit(function(event){
+        event.preventDefault();
+        let falseCtn = 0;
+        for(let i = 1; i <= validatingLength; i++){
+          if(validate['input'+i] == false){
+            falseCtn++;
+          }
+        }
+		console.log(falseCtn);
+        if(falseCtn === 0){
+            reqCheck();
+        }
+      });
+    });
+  };

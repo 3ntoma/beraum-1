@@ -21,6 +21,11 @@
     <link rel="stylesheet" type="text/css" href="../js/slick-theme.css"/>
 	<script type="text/javascript" src="../js/slick.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../support/support.css">
+    <script>
+        $(document).ready(function(){
+            simpleValidation(supportForm, captcha);
+        });
+    </script>
 </head>
 <body>
     <div class="main__container">
@@ -65,11 +70,11 @@
                                     <p>Получите дополнительные варианты обслуживания и техническую поддержку Beraum.</p>
                                 </div>
                                 <div class="send_info_block">
-                                    <form action="">
+                                    <form id="supportForm">
                                         <div class="send_row">
                                             <div>
                                                 <div class="group">      
-                                                    <input type="text">
+                                                    <input type="text" class="validate" name="name" id="name">
                                                     <span class="bar"></span>
                                                     <label>Имя</label>
                                                 </div>
@@ -85,14 +90,14 @@
                                         <div class="send_row">
                                             <div>
                                                 <div class="group">      
-                                                    <input type="text">
+                                                    <input type="text" class="validate" name="email" id="email"> 
                                                     <span class="bar"></span>
                                                     <label>Email</label>
                                                 </div>
                                             </div>
                                             <div>
                                                 <div class="group">      
-                                                    <input type="text" maxlength="255">
+                                                    <input type="text" class="validate" maxlength="255" name="msg" id="msg">
                                                     <span class="bar"></span>
                                                     <label>Сообщение</label>
                                                 </div>
@@ -107,8 +112,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <button class="sup_but">Оставить заявку</button>
+                                        <button class="sup_but submit" type="submit">Оставить заявку</button>
                                     </form>
+                                    <div class="success_send" id="success_send">
+                                        <p>Ваша заявка успешно отправлена!</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -182,6 +190,8 @@
 
         </footer>
     </div>
-    <script src="../js/customjs.js"></script>
-    <script src="../js/wow.min.js"></script>   
+    <div>
+        <script src="../js/customjs.js"></script>
+        <script src="../js/wow.min.js"></script> 
+    </div>
 </body>
