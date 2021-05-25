@@ -95,10 +95,39 @@ body._touch .show{
         font-weight: bold;
     }
 }
+/*-------------------- MAIN PAGE ---------------------------*/
+@media (max-width: 767px){
+    .sliderban_1 .slick-arrow{
+        display: none !important;
+    }
+    .sl{
+        position: relative;
+        margin: auto;
+        left: 0;
+        margin-left: calc(max(22px, env(safe-area-inset-left)));
+        margin-right: calc(max(22px, env(safe-area-inset-right))); 
+    }
+    .sl-h1 p{
+        font-size: 4.5rem;
+    }
+    .sl-text p{
+        font-size: 2rem;
+    }
+    ._one{
+        
+    }
+    ._two{
+        
+    }
+    ._three{
+        
+    }
+}
 /*-------------------- COMPANY INFO ------------------------*/
 @media (max-width: 767px){
     .info_block._container{
-        margin: 0 3rem;
+        padding-left: calc(max(22px, env(safe-area-inset-left)));
+        padding-right: calc(max(22px, env(safe-area-inset-right)));
     }
 }
 /*------------------ ADVANTAGE -----------------------*/
@@ -110,11 +139,51 @@ body._touch .show{
         grid-row-gap: 30px;
         grid-auto-rows: minmax(40px, auto);
     }
+    .info_row_text{
+        width: 100%;
+    }
+    .info_row_main{
+        display: block;
+    }
+    .info_row_img{
+        width: 100%;
+        height: 230px;
+    }
+    .advant_text_left{
+        padding: 40px 0;
+    }
+    .advant_text_right{
+        padding: 40px 0;
+    }
+    .advant_img{
+        width: 100%;
+        height: 230px;
+        background-position: center;
+    }
+    .advant_img_2{
+        display: none;
+    }
+    .advant_img_2_mobile{
+        background-image: url("../img/images/hand.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        position: relative;
+    }
+    .company__info_right{
+        padding-top: 55px !important;
+    }
+    .company__info_left:last-child{
+        padding-top: 55px !important;
+    }
 }
 /*------------------ FOOTER --------------------------*/
 @media (max-width: 767px){
     .footer__container{
         display: block;
+        padding-top: 55px;
+        padding-left: calc(max(22px, env(safe-area-inset-left)));
+        padding-right: calc(max(22px, env(safe-area-inset-right))); 
     }
     .category_container{
         overflow-x: auto;

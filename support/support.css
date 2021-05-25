@@ -210,7 +210,7 @@ input:focus ~ .bar:after {
     background: url("/img/support/partners.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center -30rem;
     background-attachment: fixed;
     display: flex;
 }

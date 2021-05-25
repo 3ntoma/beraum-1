@@ -143,7 +143,6 @@ main{
 }
 .slider__container{
     max-width: 1840px;
-    height: 700px;
     margin: 0 auto;
 }
 .slider{
@@ -165,9 +164,9 @@ main{
     top: 20%;
     left: 10%;
 }
-.sl1-h1 h1 {
-    font-size: 65px !important;
-    font-weight: 500 !important;
+.sl-h1 p{
+    font-size: 65px;
+    font-weight: 500;
     color: #2f3132;
 }
 .sl-text {
@@ -207,11 +206,6 @@ main{
     background-position: center;
     position: relative;
 }
-.sl2-h1 h1 {
-    font-size: 65px !important;
-    font-weight: 500 !important;
-    color: #2f3132;
-}
 .sl2-btn {
     font-size: 18px;
     line-height: 18px;
@@ -244,11 +238,6 @@ main{
     background-size: cover;
     background-position: center;
     position: relative;
-}
-.sl3-h1 h1 {
-    font-size: 65px !important;
-    font-weight: 500 !important;
-    color: #2f3132;
 }
 .sl3-btn {
     font-size: 18px;
