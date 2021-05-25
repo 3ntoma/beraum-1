@@ -1,3 +1,7 @@
+
+body{
+    overflow-x: hidden;
+}
 .support_block{
     width: 100%;
     background: white;
