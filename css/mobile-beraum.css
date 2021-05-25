@@ -44,11 +44,11 @@ body._touch .show{
     }
     .menu__icon._active .line_1{
         top: 50%;
-        transform: rotate(-45deg) translate(0px, -50%);
+        transform: rotate(-45deg);
     }
     .menu__icon._active .line_2{
-        bottom: 50%;
-        transform: rotate(45deg) translate(0px, 50%);
+        top: 50%;
+        transform: rotate(45deg);
     }
     .menu__body{
         position: fixed;
@@ -254,3 +254,4 @@ body._touch .show{
         padding: 15px 10px;
     }
 }
+/*---------------------- PARTNERS -----------------------*/
