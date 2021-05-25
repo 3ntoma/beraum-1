@@ -136,13 +136,6 @@ body._touch .show{
 }
 /*------------------ ADVANTAGE -----------------------*/
 @media (max-width: 767px){
-    .advantage_grid{
-        grid-auto-flow: column;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, auto);
-        grid-row-gap: 30px;
-        grid-auto-rows: minmax(40px, auto);
-    }
     .info_row_text{
         width: 100%;
     }
@@ -199,6 +192,9 @@ body._touch .show{
         -ms-overflow-style: none;
         height: auto;
         white-space: nowrap;
+    }
+    .category_container::-webkit-scrollbar{
+        display: none;
     }
     .title_text_category_1 span, .title_text_category_2 span, .title_text_category_3 span, .title_text_category_4 span, .title_text_category_5 span {
         font-size: 4.5rem;
