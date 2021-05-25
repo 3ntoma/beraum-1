@@ -207,5 +207,7 @@ body._touch .show{
         left: 0;
         width: 100%;
     }
-    
+    .prod_item{
+        margin-bottom: 2rem;
+    }
 }
