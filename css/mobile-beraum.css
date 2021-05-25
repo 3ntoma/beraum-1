@@ -192,6 +192,7 @@ body._touch .show{
         padding-right: calc(max(22px, env(safe-area-inset-right))); 
         justify-content:start;
         scrollbar-width: none;
+        -ms-overflow-style: none;
         height: auto;
     }
 }
