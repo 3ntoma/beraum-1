@@ -1041,3 +1041,23 @@ div.vk{
 ._touch .inner{
     border: 1px solid rgba(0,0,0,0.1) !important;
 }
+
+
+
+/*----------- SCROLL TO TOP -----------*/
+#scroll_top {
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	left: 30px;
+	z-index: 1000;
+	width: 35px;
+	height: 35px;
+	background: url("/img/icons/top-arrow.svg");
+    background-size: cover;
+	opacity: 0.5;
+}
+
+#scroll_top:hover {
+ 	opacity: 1;
+}
