@@ -1037,6 +1037,9 @@ div.vk{
 ._touch .inner{
     border: 1px solid rgba(0,0,0,0.1) !important;
 }
+._lock{
+    overflow: hidden;
+}
 
 
 
