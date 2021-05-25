@@ -119,8 +119,8 @@
     padding-left: 30px;
     border-left: 1px solid;
 }
-.sup_but:after:hover {
-    background-image: url('/img/support/mail.svg') !important;
+.sup_but:hover::after{
+    background-image: url('/img/support/mail.svg');
 }
 /*----------------------*/
 
