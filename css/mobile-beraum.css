@@ -260,6 +260,9 @@ body._touch .show{
     .prod_item{
         margin-bottom: 2rem;
     }
+    .first_big_img {
+        background: url("../img/catalog/mobile_banner_1.png");
+    }
 }
 /*------------------------ SUPPORT --------------------------*/
 @media (max-width: 767px){
