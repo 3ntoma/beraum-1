@@ -228,8 +228,8 @@ input:focus ~ .bar:after {
     font-weight: 600;
 }
 .partners_container{
-    padding-top: 55px;
-    padding-bottom: 65px;
+    padding-top: 110px;
+    padding-bottom: 110px;
     max-width: 1185px;
     margin: 0 auto;
     padding-left: calc(max(22px, env(safe-area-inset-left)));
@@ -239,7 +239,7 @@ input:focus ~ .bar:after {
     margin: 0;
 }
 .part_item{
-    padding: 20px;
+    padding: 0;
 }
 .part_block{
     height: 100%;
@@ -255,7 +255,7 @@ input:focus ~ .bar:after {
 }
 
 .partners_grid_bottom.row{
-    margin: 55px 0 0 0;
+    margin: 110px 0 0 0;
 }
 .partners_big_img{
     background: url("../img/support/partnership_1.svg");
