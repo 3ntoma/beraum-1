@@ -357,4 +357,11 @@ body._touch .show{
     .part_item:last-child{
         margin-bottom: 0;
     }
+    .partners_logo{
+        background: url("../img/support/mob_partners.jpg") !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-attachment: fixed !important;
+    }
 }
