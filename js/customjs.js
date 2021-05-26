@@ -18,10 +18,19 @@ $(document).ready(function(){
 	  pauseOnFocus: false
 	});
 	if ($(window).width() < 768) {
-		let full_height = $(window).height()+'200';
-		$('.menu__body')[0].style.height = full_height + 'px';
+		let full_height = Number($(window).height());
+		full_height += 200;
+		$('.menu__body')[0].style.height = String(full_height) + 'px';
 	}
   });
+
+  window.onresize= function(){
+	if ($(window).width() < 768) {
+		let full_height = Number($(window).height());
+		full_height += 200;
+		$('.menu__body')[0].style.height = String(full_height) + 'px';
+	}
+  }
 
 /*------------- MOBILE CHECK -----------------*/
 const isMobile = {

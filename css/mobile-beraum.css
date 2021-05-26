@@ -232,6 +232,12 @@ body._touch .show{
         height: auto;
         white-space: nowrap;
     }
+    .category_container div.category:first-child{
+        padding-left: calc(max(22px, env(safe-area-inset-left)));
+    }
+    .category_container div.category:last-child{
+        padding-right: calc(max(22px, env(safe-area-inset-left)));
+    }
     .category_container::-webkit-scrollbar{
         display: none;
     }
@@ -294,7 +300,7 @@ body._touch .show{
     .prod_item{
         margin-bottom: 2rem;
     }
-    .category_container{
+    .catalog_container{
         padding-left: calc(max(22px, env(safe-area-inset-left)));
         padding-right: calc(max(22px, env(safe-area-inset-right)));
     }
