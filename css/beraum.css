@@ -649,6 +649,7 @@ div.vk{
     margin: 0 auto;
     padding-top: 120px;
     font-weight: 500 !important;
+
 }
 .first_catalog{
     width: 100%;
@@ -691,6 +692,7 @@ div.vk{
     --fade3: 350%;
     background-image: linear-gradient(225deg, #382aff 36.04%, #8820ff 88.83%, #fa3e00 220.3%);
     font-size: 65px !important;
+    max-width: 50%;
 }
 .title_text_category_3 h1 {
     -webkit-background-clip: text;
@@ -741,6 +743,7 @@ div.vk{
     font-size: 18px !important;
     padding-top: 20px;
     color: #a1a1a6;
+    max-width: 50%;
 }
 .product_grid{
     position: relative;
