@@ -280,6 +280,7 @@ body._touch .show{
         left: 0;
         width: 100%;
         padding-top: 40px;
+        -webkit-background-clip: text;
     }
     .main_text_category p {
         font-size: 16px !important;
