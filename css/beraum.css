@@ -924,7 +924,10 @@ div.vk{
     transform: scale(1.1) translateY(-45%) translateX(-45%);
 }
 .bg-orange{
-    background-color: #ff8a46;
+    background-color: #CE7204;
+}
+.bg-orange_1{
+    background-color: #EA6665;
 }
 .bg-turquoise{
     background-color: #00ead0;

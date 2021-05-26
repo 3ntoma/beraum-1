@@ -245,11 +245,15 @@ input:focus ~ .bar:after {
     height: 100%;
     align-items: center;
 }
-.part_text p{
+.part_text {
     margin: auto 0;
     text-align: left;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: 500;
+}
+.part_text_bottom h1 {
+    text-align: center;
+    font-size: 50px !important;
 }
 .part_more_info{
     padding: 15px 0 25px 0;
