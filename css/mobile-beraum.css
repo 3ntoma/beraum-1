@@ -237,7 +237,7 @@ body._touch .show{
     }
     .title_text_category_1 h1, .title_text_category_2 h1, .title_text_category_3 h1, .title_text_category_4 h1, .title_text_category_5 h1 {
         font-size: 35px !important;
-        font-weight: 500;
+        font-weight: 500 !important;
     }
 }
 /*------------------- CATALOG -------------------------*/
