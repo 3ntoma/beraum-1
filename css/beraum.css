@@ -158,11 +158,13 @@ main{
     position: relative;
 }
 .sl {
-    position: absolute;
+    padding-top: 120px;
     color: #2f3132;
     max-width: 1185px;
-    top: 20%;
-    left: 10%;
+    padding-left: calc(max(22px, env(safe-area-inset-left)));
+    padding-right: calc(max(22px, env(safe-area-inset-right)));
+    color: #fff;
+    margin: 0 auto;
 }
 .sl-h1 p{
     font-size: 65px;
