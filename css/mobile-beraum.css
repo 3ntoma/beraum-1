@@ -294,6 +294,10 @@ body._touch .show{
     .prod_item{
         margin-bottom: 2rem;
     }
+    .category_container{
+        padding-left: calc(max(22px, env(safe-area-inset-left)));
+        padding-right: calc(max(22px, env(safe-area-inset-right)));
+    }
 }
 /*------------------------ SUPPORT --------------------------*/
 @media (max-width: 767px){
