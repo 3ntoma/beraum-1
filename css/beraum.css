@@ -474,7 +474,7 @@ footer{
     font-weight: 400;
 }
 ._footcontain > ul li a:hover{
-    color: #000;
+    color: #105FFF;
     text-decoration: none;
 }
 div.ozon{
@@ -525,6 +525,7 @@ div.vk{
     align-items: center;
     margin: 0 !important;
     letter-spacing: 0.05em;
+    font-size: 14px;
 }
 
 
