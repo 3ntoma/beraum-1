@@ -705,6 +705,7 @@ div.vk{
 }
 .title_text_category_1 span, .title_text_category_2 span, .title_text_category_3 span, .title_text_category_4 span, .title_text_category_5 span {
     font-size: 65px;
+    line-height: 0.9em;
 }
 .title_text_category_1 {
     -webkit-background-clip: text;
