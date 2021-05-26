@@ -243,6 +243,7 @@ input:focus ~ .bar:after {
 }
 .part_block{
     height: 100%;
+    align-items: center;
 }
 .part_text p{
     margin: auto 0;
@@ -292,7 +293,17 @@ input:focus ~ .bar:after {
 }
 
 .us_img{
-    background: url("../img/support/doodle_1.svg");
+    background: url("../img/support/red_dot.svg");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    margin: auto 0;
+    padding-right: 25px;
+}
+.your_img{
+    background: url("../img/support/lavanda_dot.svg");
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
