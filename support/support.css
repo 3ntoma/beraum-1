@@ -242,18 +242,16 @@ input:focus ~ .bar:after {
     padding: 20px;
 }
 .part_block{
-    padding: 15px;
-    border-radius: 10px;
     height: 100%;
 }
 .part_text p{
-    margin: auto 0 auto 15px;
+    margin: auto 0;
     text-align: left;
     font-size: 24px;
     font-weight: bold;
 }
 .part_more_info{
-    padding: 25px 0;
+    padding: 15px 0 25px 0;
 }
 
 .partners_grid_bottom.row{
@@ -269,7 +267,7 @@ input:focus ~ .bar:after {
     min-height: 261px;
 }
 .part_text_bottom p{
-    margin: auto 0 auto 15px;
+    margin: auto 0;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
@@ -295,19 +293,22 @@ input:focus ~ .bar:after {
 
 .us_img{
     background: url("../img/support/doodle_1.svg");
-    background-position: center;
+    background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
     width: 15px;
     height: 15px;
+    margin: auto 0;
+    padding-right: 25px;
 }
-.part_more_info div{
+.part_more_info .us_block{
     padding: 5px 0;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 5px;
 }
 .part_more_info div span{
     font-size: 16px;
-}
-.us_img{
-    ba
+    margin: auto 0;
 }

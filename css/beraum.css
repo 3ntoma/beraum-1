@@ -659,8 +659,6 @@ div.vk{
 .catalog_container{
     max-width: 1185px;
     margin: 0 auto;
-    padding-left: calc(max(22px, env(safe-area-inset-left)));
-    padding-right: calc(max(22px, env(safe-area-inset-right)));
 }
 .title_text_category_1 h1, .title_text_category_2 h1, .title_text_category_3 h1, .title_text_category_4 h1, .title_text_category_5 h1 {
     font-size: 65px !important;
