@@ -163,7 +163,6 @@ main{
     max-width: 1185px;
     padding-left: calc(max(22px, env(safe-area-inset-left)));
     padding-right: calc(max(22px, env(safe-area-inset-right)));
-    color: #fff;
     margin: 0 auto;
 }
 .sl-h1 p{
