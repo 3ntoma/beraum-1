@@ -18,7 +18,7 @@ $(document).ready(function(){
 	  pauseOnFocus: false
 	});
 	if ($(window).width() < 768) {
-		let full_height = $(window).height();
+		let full_height = $(window).height()+200;
 		$('.menu__body')[0].style.height = full_height + 'px';
 	}
   });
