@@ -235,8 +235,8 @@ body._touch .show{
     .category_container::-webkit-scrollbar{
         display: none;
     }
-    .title_text_category_1 span, .title_text_category_2 span, .title_text_category_3 span, .title_text_category_4 span, .title_text_category_5 span {
-        font-size: 35px;
+    .title_text_category_1 h1, .title_text_category_2 h1, .title_text_category_3 h1, .title_text_category_4 h1, .title_text_category_5 h1 {
+        font-size: 35px !important;
         font-weight: 500;
     }
 }
@@ -248,11 +248,38 @@ body._touch .show{
     }
     .first_big_img {
         background: url("../img/catalog/mobile_banner_1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .second_big_img {
+        background: url("../img/catalog/mobile_banner_2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .third_big_img {
+        background: url("../img/catalog/mobile_banner_3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .fourth_big_img {
+        background: url("../img/catalog/mobile_banner_4.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .fifth_big_img {
+        background: url("../img/catalog/mobile_banner_5.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
     }
     .img_text_container{
         left: 0;
         width: 100%;
-        top: 0;
+        padding-top: 40px;
     }
     .main_text_category p {
         font-size: 16px !important;

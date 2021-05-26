@@ -646,10 +646,10 @@ div.vk{
     color: #fff;
     max-width: 1185px;
     margin: 0 auto;
-    top: 20%;
+    padding-top: 120px;
     left: 14%;
     font-weight: 500 !important;
-    width: 35%;
+    width: 40%;
 }
 .first_catalog{
     width: 100%;
@@ -659,9 +659,11 @@ div.vk{
 .catalog_container{
     max-width: 1185px;
     margin: 0 auto;
+    padding-left: calc(max(22px, env(safe-area-inset-left)));
+    padding-right: calc(max(22px, env(safe-area-inset-right)));
 }
-.title_text_category_1 span, .title_text_category_2 span, .title_text_category_3 span, .title_text_category_4 span, .title_text_category_5 span {
-    font-size: 65px;
+.title_text_category_1 h1, .title_text_category_2 h1, .title_text_category_3 h1, .title_text_category_4 h1, .title_text_category_5 h1 {
+    font-size: 65px !important;
     line-height: 0.9em;
 }
 .title_text_category_1 {
@@ -678,6 +680,7 @@ div.vk{
     --fade3: 350%;
     background-image: linear-gradient(225deg, #ff5ea7 36.04%, #cb7301 88.83%, #ff6530 220.3%);
     font-size: 65px !important;
+    line-height: 0.9em;
 }
 .title_text_category_2 {
     -webkit-background-clip: text;
