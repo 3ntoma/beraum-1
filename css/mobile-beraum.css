@@ -298,6 +298,9 @@ body._touch .show{
         padding-left: calc(max(22px, env(safe-area-inset-left)));
         padding-right: calc(max(22px, env(safe-area-inset-right)));
     }
+    .product_grid{
+        margin-bottom: 60px
+    }
 }
 /*------------------------ SUPPORT --------------------------*/
 @media (max-width: 767px){
@@ -336,5 +339,16 @@ body._touch .show{
     .partners_container{
         padding-left: calc(max(22px, env(safe-area-inset-left)));
         padding-right: calc(max(22px, env(safe-area-inset-right)));
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+    .partners_grid_bottom{
+        margin-top: 60px !important;
+    }
+    .part_item{
+        margin-bottom: 60px;
+    }
+    .part_item:last-child{
+        margin-bottom: 0;
     }
 }

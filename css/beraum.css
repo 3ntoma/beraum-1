@@ -746,7 +746,7 @@ div.vk{
 .product_grid{
     position: relative;
     z-index: 2;
-    margin-bottom: 20rem;
+    margin-bottom: 110px;
     align-items: center;
     transition: all .5s ease 0s;
     width: 100%;
