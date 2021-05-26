@@ -108,12 +108,12 @@ body._touch .show{
         display: none !important;
     }
     .sl{
-        top: 5%;
         position: relative;
         margin: auto;
         left: 0;
         margin-left: calc(max(22px, env(safe-area-inset-left)));
         margin-right: calc(max(22px, env(safe-area-inset-right))); 
+        padding-top: 30px;
     }
     .sl-h1 p{
         font-size: 35px;
