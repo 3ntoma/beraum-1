@@ -173,11 +173,10 @@ main{
     padding: 10px 0 30px 0;
     font-size: 18px;
 }
-.sl1-btn {
+.sl-btn {
     font-size: 18px;
     line-height: 18px;
     letter-spacing: .02em;
-    color: #105FFF;
     text-decoration: none;
     justify-content: center;
     text-align: center;
@@ -186,14 +185,22 @@ main{
     margin-right: 9pt;
     display: inline-block;
     color: #fff;
-    background-color: #105FFF;
     vertical-align: baseline;
     border: 0;
     padding: 18px 56px;
     border: 2px solid transparent;
     border-radius: 30px;
 }
-.sl1-btn:hover {
+.btn-blue{
+    background-color: #105FFF;
+}
+.btn-green{
+    background-color: #2da75f;
+}
+.btn-brown{
+    background-color: #8d6033;
+}
+.sl-btn:hover {
     background: transparent;
     color: #2f3132;
     border: 2px solid #2f3132;
@@ -206,31 +213,6 @@ main{
     background-position: center;
     position: relative;
 }
-.sl2-btn {
-    font-size: 18px;
-    line-height: 18px;
-    letter-spacing: .02em;
-    color: #8d6033;
-    text-decoration: none;
-    justify-content: center;
-    text-align: center;
-    transition: all .15s linear;
-    margin-bottom: 9pt;
-    margin-right: 9pt;
-    display: inline-block;
-    color: #fff;
-    background-color: #8d6033;
-    vertical-align: baseline;
-    border: 0;
-    padding: 18px 56px;
-    border: 2px solid transparent;
-    border-radius: 30px;
-}
-.sl2-btn:hover {
-    background:  transparent;
-    color: #2f3132;
-    border: 2px solid #2f3132;
-}
 ._three{
     background: #F5F5F5;
     background-image: url("../img/slider/sliderbar_3.png");
@@ -238,31 +220,6 @@ main{
     background-size: cover;
     background-position: center;
     position: relative;
-}
-.sl3-btn {
-    font-size: 18px;
-    line-height: 18px;
-    letter-spacing: .02em;
-    color: #2da75f;
-    text-decoration: none;
-    justify-content: center;
-    text-align: center;
-    transition: all .15s linear;
-    margin-bottom: 9pt;
-    margin-right: 9pt;
-    display: inline-block;
-    color: #fff;
-    background-color: #2da75f;
-    vertical-align: baseline;
-    border: 0;
-    padding: 18px 56px;
-    border: 2px solid transparent;
-    border-radius: 30px;
-}
-.sl3-btn:hover {
-    background:  transparent;
-    color: #2f3132;
-    border: 2px solid #2f3132;
 }
 
 /*--- SLIDER ELEMENTS ---*/

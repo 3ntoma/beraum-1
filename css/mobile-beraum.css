@@ -105,6 +105,7 @@ body._touch .show{
         display: none !important;
     }
     .sl{
+        top: 5%;
         position: relative;
         margin: auto;
         left: 0;
@@ -117,14 +118,26 @@ body._touch .show{
     .sl-text p{
         font-size: 2rem;
     }
+    .sl-text{
+        padding-bottom: 10px;
+    }
+    .sl-btn{
+        padding: 15px 50px;
+    }
     ._one{
-        
+        background: url("/img/slider/slider_mobile_1.png");
+        background-position: bottom;
+        background-size: cover;
     }
     ._two{
-        
+        background: url("/img/slider/slider_mobile_2.png");
+        background-position: bottom;
+        background-size: cover;
     }
     ._three{
-        
+        background: url("/img/slider/slider_mobile_3.png");
+        background-position: bottom;
+        background-size: cover;
     }
 }
 /*-------------------- COMPANY INFO ------------------------*/
