@@ -266,12 +266,39 @@ input:focus ~ .bar:after {
     padding-left: 10px;
 }
 
+.partners_grid_bottom.row{
+    margin: 55px 0 0 0;
+}
 .partners_big_img{
-    background: url("../img/support/partnership.svg");
+    background: url("../img/support/partnership_1.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 85%;
+    height: 90%;
+}
+.part_text_bottom p{
+    margin: auto 0 auto 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.part_more_info_bottom{
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 25px 15px;
+}
+.email_row p:first-child{
+    text-align: center;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.email_row p:last-child{
+    text-align: center;
+    font-weight: normal;
+    padding: 0 15px;
+    font-size: 16px;
 }
 
 /*----------- LI PIC ---------------*/

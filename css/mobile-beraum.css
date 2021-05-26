@@ -298,3 +298,9 @@ body._touch .show{
     }
 }
 /*---------------------- PARTNERS -----------------------*/
+@media (max-width: 767px){
+    .partners_container{
+        padding-left: calc(max(22px, env(safe-area-inset-left)));
+        padding-right: calc(max(22px, env(safe-area-inset-right)));
+    }
+}
