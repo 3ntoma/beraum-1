@@ -238,6 +238,7 @@ body._touch .show{
     .title_text_category_1 h1, .title_text_category_2 h1, .title_text_category_3 h1, .title_text_category_4 h1, .title_text_category_5 h1 {
         font-size: 35px !important;
         font-weight: 500 !important;
+        max-width: 100%;
     }
 }
 /*------------------- CATALOG -------------------------*/
@@ -285,6 +286,7 @@ body._touch .show{
     .main_text_category p {
         font-size: 16px !important;
         padding-top: 0;
+        max-width: 100%;
     }
     .prod_item{
         padding: 0 !important;
