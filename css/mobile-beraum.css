@@ -129,17 +129,17 @@ body._touch .show{
     }
     ._one{
         background: url("/img/slider/slider_mobile_1.png");
-        background-position: bottom;
+        background-position: center;
         background-size: cover;
     }
     ._two{
         background: url("/img/slider/slider_mobile_2.png");
-        background-position: bottom;
+        background-position: center;
         background-size: cover;
     }
     ._three{
         background: url("/img/slider/slider_mobile_3.png");
-        background-position: bottom;
+        background-position: center;
         background-size: cover;
     }
 }
