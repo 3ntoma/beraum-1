@@ -98,6 +98,9 @@ body._touch .show{
 }
 /*-------------------- MAIN PAGE ---------------------------*/
 @media (max-width: 767px){
+    br{
+        display: none;
+    }
     .sliderban_1{
         z-index: 1;
     }
