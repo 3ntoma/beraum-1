@@ -642,14 +642,13 @@ div.vk{
 }
 
 .img_text_container{
-    position: absolute;
+    padding-left: calc(max(22px, env(safe-area-inset-left)));
+    padding-right: calc(max(22px, env(safe-area-inset-right)));
     color: #fff;
     max-width: 1185px;
     margin: 0 auto;
     padding-top: 120px;
-    left: 14%;
     font-weight: 500 !important;
-    width: 40%;
 }
 .first_catalog{
     width: 100%;
@@ -662,11 +661,8 @@ div.vk{
     padding-left: calc(max(22px, env(safe-area-inset-left)));
     padding-right: calc(max(22px, env(safe-area-inset-right)));
 }
-.title_text_category_1 h1, .title_text_category_2 h1, .title_text_category_3 h1, .title_text_category_4 h1, .title_text_category_5 h1 {
-    font-size: 65px !important;
+.title_text_category_1 h1 {
     line-height: 0.9em;
-}
-.title_text_category_1 {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -680,9 +676,8 @@ div.vk{
     --fade3: 350%;
     background-image: linear-gradient(225deg, #ff5ea7 36.04%, #cb7301 88.83%, #ff6530 220.3%);
     font-size: 65px !important;
-    line-height: 0.9em;
 }
-.title_text_category_2 {
+.title_text_category_2 h1 {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -695,8 +690,9 @@ div.vk{
     --fade2: 200%;
     --fade3: 350%;
     background-image: linear-gradient(225deg, #382aff 36.04%, #8820ff 88.83%, #fa3e00 220.3%);
+    font-size: 65px !important;
 }
-.title_text_category_3 {
+.title_text_category_3 h1 {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -709,8 +705,9 @@ div.vk{
     --fade2: 200%;
     --fade3: 350%;
     background-image: linear-gradient(225deg, #3316f1 36.04%, #ff1e1e 88.83%, #11c900 220.3%);
+    font-size: 65px !important;
 }
-.title_text_category_4 {
+.title_text_category_4 h1{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -723,8 +720,9 @@ div.vk{
     --fade2: 200%;
     --fade3: 350%;
     background-image: linear-gradient(225deg, #ff9d1c 36.04%, #ff4c05 88.83%, #ff6530 220.3%);
+    font-size: 65px !important;
 }
-.title_text_category_5 {
+.title_text_category_5 h1{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -737,9 +735,10 @@ div.vk{
     --fade2: 200%;
     --fade3: 350%;
     background-image: linear-gradient(225deg, #00aa17 36.04%, #adc931  88.83%, #ff6530 220.3%);
+    font-size: 65px !important;
 }
 .main_text_category p{
-    font-size: 20px !important;
+    font-size: 18px !important;
     padding-top: 20px;
     color: #a1a1a6;
 }
