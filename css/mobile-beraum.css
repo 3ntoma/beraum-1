@@ -116,16 +116,19 @@ body._touch .show{
         margin-right: calc(max(22px, env(safe-area-inset-right))); 
     }
     .sl-h1 p{
-        font-size: 4.5rem;
+        font-size: 35px;
+        line-height: 0.9em;
+        padding-top: 40px;
     }
     .sl-text p{
-        font-size: 2rem;
+        font-size: 16px;
     }
     .sl-text{
         padding-bottom: 10px;
     }
     .sl-btn{
         padding: 15px 50px;
+        font-size: 16px;
     }
     ._one{
         background: url("../img/slider/slider_mobile_1.png");
@@ -148,6 +151,21 @@ body._touch .show{
     .info_block._container{
         padding-left: calc(max(22px, env(safe-area-inset-left)));
         padding-right: calc(max(22px, env(safe-area-inset-right)));
+    }
+    .company__info {
+        padding-top: 60px;
+    }
+    .info_block h1 {
+        font-size: 35px !important;
+    }
+    .info_block h1 span {
+        font-size: 40px;
+    }
+    .info_row_text span {
+        font-weight: 20px;
+    }
+    .info_row_text1 {
+        font-size: 16px;
     }
 }
 /*------------------ ADVANTAGE -----------------------*/
@@ -184,17 +202,20 @@ body._touch .show{
         position: relative;
     }
     .company__info_right{
-        padding-top: 55px !important;
+        padding-top: 60px !important;
     }
     .company__info_left:last-child{
-        padding-top: 55px !important;
+        padding-top: 30px !important;
+    }
+    .company__info_left {
+        padding-top: 60px !important;
     }
 }
 /*------------------ FOOTER --------------------------*/
 @media (max-width: 767px){
     .footer__container{
         display: block;
-        padding-top: 55px;
+        padding-top: 10px;
         padding-left: calc(max(22px, env(safe-area-inset-left)));
         padding-right: calc(max(22px, env(safe-area-inset-right))); 
     }
