@@ -236,32 +236,33 @@ body._touch .show{
         display: none;
     }
     .title_text_category_1 span, .title_text_category_2 span, .title_text_category_3 span, .title_text_category_4 span, .title_text_category_5 span {
-        font-size: 4.5rem;
-        font-weight: normal;
+        font-size: 35px;
+        font-weight: 500;
     }
 }
 /*------------------- CATALOG -------------------------*/
 @media (max-width: 767px){
-    .first_category_img{
+    .img_text_container{
         padding-left: calc(max(22px, env(safe-area-inset-left)));
         padding-right: calc(max(22px, env(safe-area-inset-right)));
     }
-    .first_catalog{
-        padding-left: calc(max(22px, env(safe-area-inset-left)));
-        padding-right: calc(max(22px, env(safe-area-inset-right)));
+    .first_big_img {
+        background: url("../img/catalog/mobile_banner_1.png");
     }
     .img_text_container{
         left: 0;
         width: 100%;
+        top: 0;
+    }
+    .main_text_category p {
+        font-size: 16px !important;
+        padding-top: 0;
     }
     .prod_item{
         padding: 0 !important;
     }
     .prod_item{
         margin-bottom: 2rem;
-    }
-    .first_big_img {
-        background: url("../img/catalog/mobile_banner_1.png");
     }
 }
 /*------------------------ SUPPORT --------------------------*/
