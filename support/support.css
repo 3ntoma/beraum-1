@@ -211,6 +211,12 @@ input.is-valid{
 input.not-valid{
     border-bottom: 2px solid rgb(187, 61, 61);
 }
+input.correct{
+    border-bottom: 2px solid rgba(75, 181, 67, 1);
+}
+input.invalid{
+    border-bottom: 2px solid rgb(187, 61, 61);
+}
 
 /*------------- PARTNERS -------------------*/
 .partners_block{
