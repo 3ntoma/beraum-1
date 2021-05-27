@@ -238,7 +238,7 @@ let simpleValidation = function(formID, captchaID){
         } 
         if(validateThisType === "msg"){
           index = 2;
-          let mes_reg = /.{10,100}$/;
+          let mes_reg = /.{10,255}$/;
           if(!validateThisVal.match(mes_reg)){
             $(this).addClass('not-valid');
             $(this).removeClass('is-valid');
@@ -279,9 +279,17 @@ let simpleValidation = function(formID, captchaID){
             falseCtn++;
           }
         }
-		if($("#name") == ''){
-			$(this).addClass('not-valid');
+
+		if($("#name").val() == ''){
+			$("#name").addClass('not-valid');
 		}
+		if($("#email").val() == ''){
+			$("#email").addClass('not-valid');
+		}
+		if($("#msg").val() == ''){
+			$("#msg").addClass('not-valid');
+		}
+
         if(falseCtn === 0){
             reqCheck();
         }

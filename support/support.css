@@ -38,6 +38,9 @@
 .sup_block{
     padding: 15px;
 }
+.sup_block_tel{
+    padding: 110px 15px 110px 15px;
+}
 .sup_1{
     background: url("../img/support/customer-support.svg");
     background-size: contain;
@@ -51,6 +54,24 @@
 }
 .sup_text h1{
     text-align: center;
+}
+.sup_text_tel{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sup_more_tel{
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 15px;
+}
+.sup_more_tel a{
+    color: #105FFF;
+}
+.sup_more_tel a:hover{
+    text-decoration: none;
+    color: #105FFF;
+    font-weight: 600;
 }
 .sup_more_info{
     text-align: center;
