@@ -309,4 +309,4 @@ $('[href^="#catalog_"]').on('click', function(){
 	  }, 1000);
 	}
 	return false;
-  });
+});
