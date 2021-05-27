@@ -311,7 +311,7 @@ body._touch .show{
 /*------------------------ SUPPORT --------------------------*/
 @media (max-width: 767px){
     .sup_logo_text{
-        font-size: 4.5rem;
+        font-size: 35px;
     }
     .sup_logo_info{
         padding-left: calc(max(22px, env(safe-area-inset-left)));
@@ -339,17 +339,20 @@ body._touch .show{
         width: 100%;
         padding: 15px 10px;
     }
+    .sup_text h1{
+        font-size: 35px !important;
+    }
 }
 /*---------------------- PARTNERS -----------------------*/
 @media (max-width: 767px){
     .partners_container{
         padding-left: calc(max(22px, env(safe-area-inset-left)));
         padding-right: calc(max(22px, env(safe-area-inset-right)));
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
     .partners_grid_bottom{
-        margin-top: 60px !important;
+        margin-top: 60px;
     }
     .part_item{
         margin-bottom: 60px;
@@ -358,10 +361,19 @@ body._touch .show{
         margin-bottom: 0;
     }
     .partners_logo{
-        background: url("../img/support/mob_partners.jpg") !important;
-        background-size: cover !important;
-        background-repeat: no-repeat !important;
-        background-position: center !important;
-        background-attachment: fixed !important;
+        background: url("../img/support/mob_partners.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .part_logo_text{
+        font-size: 35px;
+    }
+    .part_text{
+        font-size: 35px;
+    }
+    .part_text_bottom h1{
+        font-size: 35px !important;
     }
 }

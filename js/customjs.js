@@ -279,7 +279,6 @@ let simpleValidation = function(formID, captchaID){
             falseCtn++;
           }
         }
-		console.log(falseCtn);
         if(falseCtn === 0){
             reqCheck();
         }

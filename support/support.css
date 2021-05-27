@@ -122,6 +122,11 @@
 .sup_but:hover::after{
     background-image: url('/img/support/mail.svg');
 }
+.sup_but,
+.sup_but:active,
+.sup_but:focus{
+    outline: none;
+}
 .success_send{
     display: flex;
     margin: 0 auto;
@@ -168,7 +173,7 @@ label {
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
-    top: -15px;
+    top: -20px;
     font-size: 16px;
     color: #2f3132;
 }
@@ -198,6 +203,13 @@ label {
 input:focus ~ .bar:before,
 input:focus ~ .bar:after {
     width: 50%;
+}
+
+input.is-valid{
+    border-bottom: 2px solid rgba(75, 181, 67, 1);
+}
+input.not-valid{
+    border-bottom: 2px solid rgb(187, 61, 61);
 }
 
 /*------------- PARTNERS -------------------*/
