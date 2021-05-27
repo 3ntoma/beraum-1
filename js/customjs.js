@@ -201,9 +201,10 @@ function reqCheck(){
 	}).done(function(){
 		$("#supportForm").find("input").val("");
 		$("#supportForm").find("input").removeClass('is-valid');
-		$("#supportForm").find("textarea").val("");
-		$("#supportForm").find("textarea").removeClass('is-valid');
+		$("#supportForm").find("#captcha").removeClass('correct');
+		$("#supportForm").find("#captcha").addClass('invalid');
 		document.getElementById("supportForm").reset();
+		initCaptcha(captcha);
 		document.getElementById("success_send").style.display = "block";
 		setTimeout(() => {document.getElementById("success_send").style.display = "none";}, 3000);
 		return false;
