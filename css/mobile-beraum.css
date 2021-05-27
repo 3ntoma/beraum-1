@@ -363,10 +363,6 @@ body._touch .show{
     }
     .partners_logo{
         background: url("../img/support/mob_partners.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
     }
     .part_logo_text{
         font-size: 35px;
@@ -376,5 +372,11 @@ body._touch .show{
     }
     .part_text_bottom h1{
         font-size: 35px !important;
+    }
+}
+/*---------------------- SUPPORT -----------------------*/
+@media (max-width: 767px){
+    .support_logo {
+        background: url("../img/support/tech_mobile.jpg");
     }
 }
