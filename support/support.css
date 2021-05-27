@@ -61,17 +61,21 @@
     font-weight: 500;
 }
 .sup_more_tel{
+    display: flex;
     text-align: center;
     font-size: 18px;
     font-weight: 700;
-    text-decoration: underline;
     padding: 20px 15px 20px 15px;
     width: 25%;
-    margin: 0 auto;
+    margin: auto;
 }
 .sup_more_tel a{
-    color: rgb(47, 49, 50);
+    color: #2f3132;
 }
+.sup_more_tel a p{
+    margin: auto;
+}
+.sup_more_tel a:focus,
 .sup_more_tel a:hover{
     text-decoration: none;
     color: #105FFF;
@@ -100,7 +104,17 @@
 .send_info_block{
     margin-top: 55px
 }
-
+.sup_phone_img{
+    background: url("../img/support/phone_black.svg");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 20px;
+    height: 20px;
+}
 .sup_but {
     display: flex;
     margin: 0 auto;
@@ -243,9 +257,6 @@ input.not-valid{
 }
 input.correct{
     border-bottom: 2px solid rgba(75, 181, 67, 1);
-}
-input.invalid{
-    border-bottom: 2px solid rgb(187, 61, 61);
 }
 
 /*------------- PARTNERS -------------------*/
