@@ -192,6 +192,11 @@ main{
     border: 2px solid transparent;
     border-radius: 30px;
 }
+.sl-btn,
+.sl-btn:active,
+.sl-btn:focus{
+    outline: none;
+}
 .btn-blue{
     background-color: #105FFF;
 }
