@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260"><defs><style>.cls-1,.cls-2,.cls-3,.cls-5,.cls-6{fill:none;}.cls-1,.cls-2,.cls-5,.cls-6{stroke:#fff;stroke-miterlimit:10;}.cls-1{stroke-width:7px;}.cls-2{stroke-width:6px;}.cls-4{fill:#f5f5f7;}.cls-5,.cls-6{stroke-width:10px;}.cls-6{stroke-dasharray:18.45 7.6;}</style></defs><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><rect class="cls-1" x="80" y="-24.29" width="200" height="308.57" rx="12.75" transform="translate(50 310) rotate(-90)"/><ellipse class="cls-2" cx="106.82" cy="130" rx="56.57" ry="55"/><ellipse class="cls-2" cx="229.96" cy="130" rx="44" ry="42.77"/><rect class="cls-3" x="50" y="-50" width="260" height="360" transform="translate(50 310) rotate(-90)"/><line class="cls-4" x1="307.33" y1="82.26" x2="307.33" y2="185"/><line class="cls-5" x1="307.33" y1="82.26" x2="307.33" y2="90.76"/><line class="cls-6" x1="307.33" y1="98.36" x2="307.33" y2="172.7"/><line class="cls-5" x1="307.33" y1="176.5" x2="307.33" y2="185"/></g></g></svg>
+<svg width="260" height="360" viewBox="0 0 260 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M217.25 25.71H42.75C35.7084 25.71 30 31.4183 30 38.46V321.53C30 328.572 35.7084 334.28 42.75 334.28H217.25C224.292 334.28 230 328.572 230 321.53V38.46C230 31.4183 224.292 25.71 217.25 25.71Z" stroke="white" stroke-width="7" stroke-miterlimit="10"/>
+<path d="M75 106.82C75 138.063 99.6243 163.39 130 163.39C160.376 163.39 185 138.063 185 106.82C185 75.5773 160.376 50.25 130 50.25C99.6243 50.25 75 75.5773 75 106.82Z" stroke="white" stroke-width="6" stroke-miterlimit="10"/>
+<path d="M87.2295 229.96C87.2295 254.26 106.378 273.96 130 273.96C153.621 273.96 172.77 254.26 172.77 229.96C172.77 205.659 153.621 185.96 130 185.96C106.378 185.96 87.2295 205.659 87.2295 229.96Z" stroke="white" stroke-width="6" stroke-miterlimit="10"/>
+<path d="M177.74 307.33H169.24" stroke="white" stroke-width="10" stroke-miterlimit="10"/>
+<path d="M161.64 307.33H87.2997" stroke="white" stroke-width="10" stroke-miterlimit="10" stroke-dasharray="18.45 7.6"/>
+<path d="M83.5 307.33H75" stroke="white" stroke-width="10" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="360" height="260" fill="white" transform="translate(260) rotate(90)"/>
+</clipPath>
+</defs>
+</svg>

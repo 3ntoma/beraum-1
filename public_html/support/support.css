@@ -1,0 +1,413 @@
+.support_block{
+    width: 100%;
+    background: white;
+}
+.support_logo{
+    width: 100%;
+    height: 400px;
+    background: url("../img/support/tech_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:right;
+    background-attachment: fixed;
+    display: flex;
+}
+.sup_logo_info{
+    margin: auto;
+}
+.sup_logo_text{
+    font-size: 65px;
+    font-weight: 500;
+    color: #fff;
+}
+.support_container{
+    padding-top: 55px;
+    padding-bottom: 55px;
+    max-width: 1185px;
+    margin: 0 auto;
+    padding-left: calc(max(22px, env(safe-area-inset-left)));
+    padding-right: calc(max(22px, env(safe-area-inset-right)));
+}
+.support_grid.row{
+    margin: 0;
+}
+.sup_item{
+    padding: 10px;
+    margin: 0 auto;
+}
+.sup_block{
+    padding: 15px;
+}
+.sup_block_tel{
+    padding: 55px 15px 15px 15px;
+}
+.sup_1{
+    background: url("../img/support/customer-support.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 70px;
+}
+.sup_img{
+    margin: 30px 0;
+}
+.sup_text h1{
+    text-align: center;
+}
+.sup_text_tel{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sup_more_tel{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 15px 20px 15px;
+    margin: 0 auto;
+}
+.sup_more_tel a{
+    color: #2f3132;
+}
+.sup_more_tel a p{
+    margin: auto;
+    white-space: nowrap;
+}
+.sup_more_tel a:focus,
+.sup_more_tel a:hover{
+    text-decoration: none;
+    color: #105FFF;
+}
+.sup_more_info{
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 15px;
+}
+.send_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    font-size: 16px;
+}
+.kapcha_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.send_row div:last-child{
+    margin-left: 5rem;
+}
+.send_info_block{
+    margin-top: 55px
+}
+.sup_phone_img{
+    background: url("../img/support/phone_black.svg");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 20px;
+    height: 20px;
+}
+.sup_but {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: .05em;
+    font-weight: 500;
+    padding: 12px 20px;
+    color: #fff;
+    background: #105FFF;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: .3s linear;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    outline: none;
+}
+.sup_but a{
+    color: #fff;
+}
+.sup_but:hover a{
+    color: #2f3132;
+}
+.sup_but:hover {
+    color: #2f3132;
+    background: transparent;
+    border: 2px solid #2f3132;
+}
+.sup_but:after {
+    background-image: url('../img/support/mail_1.svg');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px; 
+    height: 15px;
+    content:"";
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    margin-left: 10px;
+    padding-left: 30px;
+    border-left: 1px solid;
+}
+.sup_but:hover::after{
+    background-image: url('../img/support/mail.svg');
+}
+.sup_but,
+.sup_but:active,
+.sup_but:focus{
+    outline: none;
+}
+.success_send{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: .05em;
+    font-weight: 500;
+    padding: 12px 20px;
+    color: #fff;
+    background: rgba(75, 181, 67, 1);
+    border: 2px solid transparent;
+    transition: .3s linear;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    outline: none;
+    display: none;
+}
+.success_send p{
+    text-align: center;
+    margin: 0 auto;
+}
+/*----------------------*/
+
+.group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+input:focus {
+    outline: none;
+}
+label {
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    top: -20px;
+    font-size: 16px;
+    color: #2f3132;
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 320px;
+}
+.bar:before, .bar:after {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: #105FFF;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+.bar:before {
+    left: 50%;
+}
+.bar:after {
+    right: 50%;
+}
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+    width: 50%;
+}
+
+input.is-valid{
+    border-bottom: 2px solid rgba(75, 181, 67, 1);
+}
+input.not-valid{
+    border-bottom: 2px solid rgb(187, 61, 61);
+}
+input.correct{
+    border-bottom: 2px solid rgba(75, 181, 67, 1);
+}
+
+/*------------- PARTNERS -------------------*/
+.partners_block{
+    background: white;
+}
+.partners_logo{
+    width: 100%;
+    height: 400px;
+    background: url("../img/support/partners.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+}
+.part_logo_info{
+    position: relative;
+    margin: auto;
+}
+.part_logo_text{
+    font-size: 65px;
+    font-weight: 500;
+    color: #fff;
+}
+.part_logo_question{
+    font-weight: 28px;
+    font-weight: 600;
+}
+.partners_container{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    max-width: 1185px;
+    margin: 0 auto;
+    padding-left: calc(max(22px, env(safe-area-inset-left)));
+    padding-right: calc(max(22px, env(safe-area-inset-right)));
+}
+.partners_grid.row{
+    margin: 0;
+}
+.part_item{
+    padding: 0;
+}
+.part_block{
+    height: 100%;
+    align-items: center;
+}
+.part_text {
+    margin: auto 0;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 500;
+}
+.part_text_bottom h1 {
+    text-align: center;
+    font-size: 40px !important;
+}
+.part_more_info{
+    padding: 15px 0 25px 0;
+}
+
+.partners_grid_bottom.row{
+    margin: 110px 0 0 0;
+}
+.partners_big_img{
+    background: url("../img/support/partnership_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    min-height: 261px;
+}
+.part_text_bottom p{
+    margin: auto 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.part_more_info_bottom{
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 30px 0 0 0;
+}
+.email_row p:first-child{
+    text-align: center;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.email_row p:last-child{
+    text-align: center;
+    font-weight: normal;
+    padding: 0;
+    font-size: 16px;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: .05em;
+    font-weight: 500;
+    padding: 12px 20px;
+    color: #fff;
+    background: #105FFF;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: .3s linear;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    outline: none;
+    width: 22%;
+}
+.email_row a {
+    text-decoration: none;
+}
+.email_row p:last-child:hover {
+    background: transparent;
+    color: #2f3132;
+    border: 2px solid #2f3132;
+}
+
+.us_img{
+    background: url("../img/support/red_dot.svg");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    margin: auto 0;
+    padding-right: 25px;
+}
+.your_img{
+    background: url("../img/support/lavanda_dot.svg");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    margin: auto 0;
+    padding-right: 25px;
+}
+.part_more_info .us_block{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 5px;
+}
+.part_more_info div span{
+    font-size: 16px;
+    margin: auto 0;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="../css/beraum.css">
+    <link rel="stylesheet" type="text/css" href="../support/support.css">
+    <link rel="stylesheet" type="text/css" href="../css/mobile-beraum.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+	
+    <!--<link rel="stylesheet" href="../css/fonts.css">-->
+    <title>Beraum</title>
+    <link rel="icon" href="../img/icons/favicon.svg" sizes="any" type="image/svg+xml">
+	<script src="../js/jquery-3.5.1.min.js"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+            simpleValidation(supportForm, captcha);
+        });
+    </script>
+</head>
+<body>
+    <div class="main__container">
+        <header class="header">
+            <div class="header__container">
+                <div class="menu__icon">
+                    <span class="line_1"></span>
+                    <span class="line_2"></span>
+                </div>
+                <div class="company__container">
+                    <a class="logo" href="/"></a>
+                </div>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li><a href="../" class="menu__link">Главная</a></li>
+                        <li><a href="../catalog/" class="menu__link">Каталог</a></li>
+                        <li><a href="../partners/" class="menu__link">Партнёрам</a></li>
+                        <li class="active"><a href="#" class="menu__link">Поддержка</a></li>
+                    </ul>
+                </nav>
+                <div class="phone-icon"><a class="phone" href="mailto:corp@beraum.com"></a></div>
+            </div>
+        </header>
+
+        <main>
+            <section class="support_block">
+                <div class="support_logo">
+                    <div class="sup_logo_info">
+                        <div class="sup_logo_text">
+                            <span>Служба поддержки Beraum</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="support_container">
+                    <div class="support_grid">
+                        <div class="sup_item">
+                            <div class="sup_block">
+                                <div class="sup_text">
+                                    <h1>Обслуживание и поддержка</h1>
+                                </div>
+                                <div class="sup_more_info">
+                                    <p>Получите дополнительные варианты обслуживания и техническую поддержку Beraum по телефону:</p>
+                                </div>
+                                <div class="sup_more_tel">
+                                    <div class="sup_phone_img"></div>
+                                    <a href="tel:+79006479345"><p>+7 (900) 647-93-45</p></a>
+                                </div>
+                                <div class="sup_more_info">
+                                    <p>или через форму обратной связи:</p>
+                                </div>
+                                <div class="send_info_block">
+                                    <form id="supportForm">
+                                        <div class="send_row">
+                                            <div>
+                                                <div class="group">      
+                                                    <input type="text" class="validate" name="name" id="name">
+                                                    <span class="bar"></span>
+                                                    <label>Имя *</label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="group">      
+                                                    <input type="text" id="phone-number" name="phone-number" maxlength="14" placeholder="(XXX) XXX-XXXX">
+                                                    <span class="bar"></span>
+                                                    <label>Телефон</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="send_row">
+                                            <div>
+                                                <div class="group">      
+                                                    <input type="text" class="validate" name="email" id="email"> 
+                                                    <span class="bar"></span>
+                                                    <label>Email *</label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="group">      
+                                                    <input type="text" class="validate" maxlength="255" name="msg" id="msg" placeholder="не менее 10 символов">
+                                                    <span class="bar"></span>
+                                                    <label>Сообщение *</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kapcha_row">
+                                            <div>
+                                                <div class="group">      
+                                                    <input type="text" name="captcha" maxlength="6" id="captcha">
+                                                    <span class="bar"></span>
+                                                    <label>Капча *</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="sup_but submit" type="submit">Оставить заявку</button>
+                                    </form>
+                                    <div class="success_send" id="success_send">
+                                        <p>Ваша заявка успешно отправлена!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section class="row_info">
+                <div class="footer__container _container">
+                    <div class="site_map _footcontain">
+                        <ul>
+                            <li><span class="footer_title">Карта сайта</span></li>
+                            <li><a href="../">Главная</a></li>
+                            <li><a href="../catalog/">Каталог</a></li>
+                            <li><a href="../partners/">Партнерам</a></li>
+                            <li><a href="#">Поддержка</a></li>
+                        </ul>
+                    </div>
+                    <div class="product_map _footcontain">
+                        <ul>
+                            <li><span class="footer_title">Каталог</span></li>
+                            <li><a href="../catalog/#catalog_gaz">Газовые панели</a></li>
+                            <li><a href="../catalog/#catalog_electro">Электрические панели</a></li>
+                            <li><a href="../catalog/#catalog_hood">Вытяжки</a></li>
+                            <li><a href="../catalog/#catalog_cappuc">Капучинаторы</a></li>
+                            <li><a href="../catalog/#catalog_home">Товары для дома</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="media_flex _footcontain">
+                        <ul>
+                            <li><span class="footer_title">Мы на маркетплейсах</span></li>
+                            <li class="media_row">
+                                <a target="_blank" href="https://www.ozon.ru/seller/tehshop-9382/"><div class="ozon"></div></a>
+                                <a target="_blank" href="https://www.wildberries.ru/brands/beraum"><div class="wildberries"></div></a>
+                                <a target="_blank" href="https://market.yandex.ru/brands--beraum/22357472"><div class="yamarket"></div></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="media_flex _footcontain">
+                        <ul>
+                            <li><span class="footer_title">Следите за нами</span></li>
+                            <li class="media_row">
+                                <a target="_blank" href="https://www.instagram.com/beraum_bt/"><div class="instagram"></div></a>
+                                <a target="_blank" href="https://vk.com/beraumshopspb"><div class="vk"></div></a>
+                            </li>
+                        </ul>   
+                    </div>
+                </div>
+            </section>
+
+            <section class="privacy_term">
+                <div>
+                    
+                </div>
+            </section>
+            <section class="row_info">
+                <div class="footer__container _container">
+                    <div class="footer_end">
+                        <p>© 2021 Beraum. Все права защищены.</p>
+                    </div>
+
+        </footer>
+    <div>
+        <script src="../js/customjs.js"></script>
+        <script src="../js/wow.min.js"></script> 
+    </div>
+</body>
