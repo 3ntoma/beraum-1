@@ -94,9 +94,14 @@
     border-radius: 30px;
     outline: none;
 }
+.sup_but a{
+    color: #fff;
+}
+.sup_but:hover a{
+    color: #2f3132;
+}
 .sup_but:hover {
     background: transparent;
-    color: #2f3132;
     border: 2px solid #2f3132;
 }
 .sup_but:after {
