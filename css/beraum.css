@@ -452,12 +452,14 @@ footer{
 .media_flex ul li{
     display: flex;
 }
-.media_flex ul li.media_row > div{
+.media_row > a div{
     width: 30px;
     height: 30px;
+}
+.media_row a{
     margin-left: 10px;
 }
-.media_flex ul li.media_row div:first-child{
+.media_row a:first-child{
     margin-left: 0;
 }
 ._footcontain{
