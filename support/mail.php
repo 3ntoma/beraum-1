@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
   exit();
 }
 
-$recepient = "";
+$recepient = "corp@beraum.com";
 $recepient_2 = "wazzyjim@gmail.com";
 $sitename = "BERAUM.COM";
 
