@@ -58,22 +58,23 @@
 .sup_text_tel{
     text-align: center;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .sup_more_tel{
     text-align: center;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
     text-decoration: underline;
-    padding: 30px 15px 30px 15px;
+    padding: 20px 15px 20px 15px;
+    width: 25%;
+    margin: 0 auto;
 }
 .sup_more_tel a{
-    color: black;
+    color: rgb(47, 49, 50);
 }
 .sup_more_tel a:hover{
     text-decoration: none;
     color: #105FFF;
-    font-weight: bold;
 }
 .sup_more_info{
     text-align: center;
