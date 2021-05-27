@@ -1,22 +1,24 @@
 $(document).ready(function(){
 	/*- слайдер -*/
-	$('.sliderban_1').slick({
-	  dots: true,
-	  arrows: true,
-	  infinite: true,
-	  autoplay : true,
-	  autoplaySpeed: 4000,
-	  speed: 300,
-	  slidesToShow: 1,
-	  slidesToScroll: 1,
-	  edgeFriction: 0,
-	  centerMode: true,
-	  variableWidth: false,
-	  draggable: false,
-	  adaptiveHeight: true,
-	  pauseOnHover: false,
-	  pauseOnFocus: false
-	});
+	if($(".sliderban_1").length){
+		$('.sliderban_1').slick({
+			dots: true,
+			arrows: true,
+			infinite: true,
+			autoplay : true,
+			autoplaySpeed: 4000,
+			speed: 300,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			edgeFriction: 0,
+			centerMode: true,
+			variableWidth: false,
+			draggable: false,
+			adaptiveHeight: true,
+			pauseOnHover: false,
+			pauseOnFocus: false
+		});
+	}
 	if ($(window).width() < 768) {
 		let full_height = Number($(window).height());
 		full_height += 200;
