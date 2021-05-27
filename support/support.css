@@ -62,18 +62,19 @@
 }
 .sup_more_tel{
     display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 18px;
     font-weight: 700;
     padding: 20px 15px 20px 15px;
-    width: 25%;
-    margin: auto;
+    margin: 0 auto;
 }
 .sup_more_tel a{
     color: #2f3132;
 }
 .sup_more_tel a p{
     margin: auto;
+    white-space: nowrap;
 }
 .sup_more_tel a:focus,
 .sup_more_tel a:hover{
