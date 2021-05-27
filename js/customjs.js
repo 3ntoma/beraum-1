@@ -203,6 +203,7 @@ function reqCheck(){
 		$("#supportForm").find("textarea").removeClass('is-valid');
 		document.getElementById("supportForm").reset();
 		document.getElementById("success_send").style.display = "block";
+		setTimeout(() => {document.getElementById("success_send").style.display = "none";}, 3000);
 		return false;
 	});
 }
