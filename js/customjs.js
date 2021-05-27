@@ -279,6 +279,9 @@ let simpleValidation = function(formID, captchaID){
             falseCtn++;
           }
         }
+		if($("#name") == ''){
+			$(this).addClass('not-valid');
+		}
         if(falseCtn === 0){
             reqCheck();
         }
