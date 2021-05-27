@@ -1,5 +1,12 @@
 <?php 
-$recepient = "wazzyjim31@yandex.ru";
+if (empty($_SERVER['HTTP_X_REQUESTED_WITH']) || $_SERVER['HTTP_X_REQUESTED_WITH'] != 'XMLHttpRequest') {
+  exit();
+}
+if ($_SERVER['REQUEST_METHOD'] != 'POST') {
+  exit();
+}
+
+$recepient = "corp@beraum.com";
 $recepient_2 = "wazzyjim@gmail.com";
 $sitename = "BERAUM.COM";
 
