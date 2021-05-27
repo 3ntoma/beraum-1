@@ -351,8 +351,9 @@ body._touch .show{
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    .partners_grid_bottom{
-        margin-top: 60px;
+
+    .partners_grid_bottom {
+        margin: 60px 0 0 0 !important;
     }
     .part_item{
         margin-bottom: 60px;
