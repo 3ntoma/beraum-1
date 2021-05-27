@@ -267,9 +267,9 @@ let simpleValidation = function(formID, captchaID){
         }
         if(validateThisType === "captcha"){
           index = 4;
-          if($(captchaID).hasClass('correct')){
+          if($(this).hasClass('correct')){
             return validate['input'+index] = true;
-          } else if($(captchaID).hasClass('invalid')){
+          } else if($(this).hasClass('invalid')){
             return validate['input'+index] = false;
           }
         }
@@ -282,7 +282,6 @@ let simpleValidation = function(formID, captchaID){
             falseCtn++;
           }
         }
-
 		if($("#name").val() == ''){
 			$("#name").addClass('not-valid');
 		}
@@ -292,7 +291,6 @@ let simpleValidation = function(formID, captchaID){
 		if($("#msg").val() == ''){
 			$("#msg").addClass('not-valid');
 		}
-
         if(falseCtn === 0){
             reqCheck();
         }
