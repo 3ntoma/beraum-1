@@ -5,7 +5,7 @@
 .support_logo{
     width: 100%;
     height: 400px;
-    background: url("/img/support/tech_1.jpg");
+    background: url("../img/support/tech_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:right;
@@ -39,7 +39,7 @@
     padding: 15px;
 }
 .sup_1{
-    background: url("/img/support/customer-support.svg");
+    background: url("../img/support/customer-support.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -100,7 +100,7 @@
     border: 2px solid #2f3132;
 }
 .sup_but:after {
-    background-image: url('/img/support/mail_1.svg');
+    background-image: url('../img/support/mail_1.svg');
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: center;
@@ -120,7 +120,7 @@
     border-left: 1px solid;
 }
 .sup_but:hover::after{
-    background-image: url('/img/support/mail.svg');
+    background-image: url('../img/support/mail.svg');
 }
 .sup_but,
 .sup_but:active,
@@ -219,7 +219,7 @@ input.not-valid{
 .partners_logo{
     width: 100%;
     height: 400px;
-    background: url("/img/support/partners.jpg");
+    background: url("../img/support/partners.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
