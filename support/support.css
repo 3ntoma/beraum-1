@@ -86,6 +86,9 @@
     font-size: 18px;
     padding: 15px 15px;
 }
+.sup_but.submit{
+    margin-top: 0 !important;
+}
 .send_row{
     display: flex;
     align-items: center;
