@@ -782,7 +782,7 @@ sup{
 }
 .main_text_category p{
     font-size: 18px !important;
-    padding-top: 20px;
+    padding-top: 20px !important;
     color: #a1a1a6;
     max-width: 50%;
 }
