@@ -587,7 +587,20 @@ div.vk{
 .category a:hover{
     text-decoration: none;
     color: #105FFF;
+    border-bottom: 1px solid #105FFF;
 }
+.category a:focus{
+    text-decoration: none;
+    color: #105FFF;
+    outline: none;
+}
+.category a:focus .category_name{
+    font-weight: 700;
+    font-size: 12px;
+    color: #105FFF;
+    border-bottom: 1px solid #105FFF;
+    outline: none;
+} 
 .category_name{
     font-size: 12px;
     width: auto;
